@@ -1,36 +1,146 @@
 package utility;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import exceptions.ApplicationException;
 import exceptions.BusinessException;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
-import java.text.DecimalFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.io.IOException;
-import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
+import model.PojoClass;
 import org.apache.log4j.xml.DOMConfigurator;
-import org.apache.poi.xssf.usermodel.XSSFRow;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Util {
-    public static DecimalFormat decimalFormat = new DecimalFormat("#");
-
-    public static String fetchUpc(XSSFRow row) {
-        String upc;
+    public static void setSpecificDataToPojo(String specificData) {
         try {
-            upc = Util.decimalFormat.format(row.getCell(Constant.UPC_COLUMN_NUMBER).getNumericCellValue());
+            // Create ObjectMapper instance
+            ObjectMapper objectMapper = new ObjectMapper();
+
+            // Deserialize JSON string to Java object
+            Product product = objectMapper.readValue(specificData, Product.class);
+
+            // Create an instance of PojoClass
+            PojoClass pojo = new PojoClass();
+
+            // Set values from Product object to PojoClass using setters
+            pojo.setStrVendorFileName1(product.getVendorFileName1());
+            pojo.setStrDmmVal(product.getDmmGrpId());
+            pojo.setStrColor(product.getColor());
+            pojo.setStrClassName(product.getClassName());
+            pojo.setStrVPN(product.getVendorStyleVpn());
+            pojo.setStrbrandName(product.getBrandName());
+            pojo.setStrSVS(product.getSvs());
+            pojo.setStrImageUploadDate(product.getImageUploadDate());
+            pojo.setStrUPC(product.getPhotoOverrideUpc());
+            pojo.setStrOH(product.getEcomOhUnits());
+            pojo.setStrOO(product.getEcomOoUnits());
+            pojo.setStrGmmVal(product.getGmmDivId());
+            pojo.setStrStyleDesc(product.getStyleDescription());
+
         } catch (Exception e) {
-            upc = row.getCell(Constant.UPC_COLUMN_NUMBER).toString();
+            e.printStackTrace();
         }
-        return upc;
+    }
+    public static class Product {
+        @JsonProperty("Vendor File Name 1")
+        public String vendorFileName1;
+
+        @JsonProperty("DMM/GRP ID")
+        public String dmmGrpId;
+
+        @JsonProperty("Color")
+        public String color;
+
+        @JsonProperty("Class Name")
+        public String className;
+
+        @JsonProperty("Vendor Style/VPN")
+        public String vendorStyleVpn;
+
+        @JsonProperty("Brand Name")
+        public String brandName;
+
+        @JsonProperty("SVS")
+        public String svs;
+
+        @JsonProperty("Image Upload Date in Workhorse")
+        public String imageUploadDate;
+
+        @JsonProperty("Photo Override UPC")
+        public String photoOverrideUpc;
+
+        @JsonProperty("Ecom OH Units")
+        public String ecomOhUnits;
+
+        @JsonProperty("Ecom OO Units")
+        public String ecomOoUnits;
+
+        @JsonProperty("GMM/DIV ID")
+        public String gmmDivId;
+
+        @JsonProperty("Style Description")
+        public String styleDescription;
+
+        // Getters and setters
+        public String getVendorFileName1() {
+            return vendorFileName1;
+        }
+        public String getDmmGrpId() {
+            return dmmGrpId;
+        }
+
+        public String getColor() {
+            return color;
+        }
+
+        public String getClassName() {
+            return className;
+        }
+
+        public String getVendorStyleVpn() {
+            return vendorStyleVpn;
+        }
+
+        public String getBrandName() {
+            return brandName;
+        }
+
+        public String getSvs() {
+            return svs;
+        }
+
+        public String getImageUploadDate() {
+            return imageUploadDate;
+        }
+
+        public String getPhotoOverrideUpc() {
+            return photoOverrideUpc;
+        }
+
+        public String getEcomOhUnits() {
+            return ecomOhUnits;
+        }
+
+        public String getEcomOoUnits() {
+            return ecomOoUnits;
+        }
+
+        public String getGmmDivId() {
+            return gmmDivId;
+        }
+
+        public String getStyleDescription() {
+            return styleDescription;
+        }
     }
 
     public static void StartLog() {
@@ -90,7 +200,7 @@ public class Util {
         return fileList;
     }
 
-    public static void copyFileToBox(Path path) {
+    public static void copyFileToBox(Path path) throws IOException {
         LocalDate date = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M_MMMM_yyyy");
         String formattedCurrentDate = date.format(formatter);
@@ -100,21 +210,12 @@ public class Util {
 
         File destinationFile = new File(boxPath);
         if (destinationFile.exists()) {
-            System.out.println(destinationFile + " already exists. Overwriting.");
+            System.out.println(destinationFile + " already exists.");
         } else {
-            try {
                 Files.createDirectories(destinationFile.getParentFile().toPath());
-            } catch (IOException e) {
-                throw new RuntimeException("Error creating directories: " + e.getMessage());
-            }
         }
-
-        try {
             Files.copy(path, destinationFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
             System.out.println("File copied successfully to: " + destinationFile);
-        } catch (IOException e) {
-            throw new RuntimeException("Error copying file: " + e.getMessage());
-        }
     }
 
     public static Boolean checkDuplicates(Path path) {

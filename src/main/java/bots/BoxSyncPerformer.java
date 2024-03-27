@@ -2,68 +2,108 @@ package bots;
 
 import exceptions.ApplicationException;
 import exceptions.BusinessException;
-import org.apache.poi.xssf.usermodel.XSSFRow;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import utility.Constant;
-import utility.ExcelUtils;
-import utility.Log;
-import utility.Util;
+import model.PojoClass;
+import utility.*;
 import java.nio.file.Path;
 import java.io.IOException;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 public class BoxSyncPerformer {
     ExcelUtils fetchInput;
-    XSSFSheet sheet;
-    public void boxPerformer() throws BusinessException, ApplicationException, IOException {
+    PojoClass pojoClass;
+    List<Path> allFiles;
+    String status = null;
+    String upc;
+    Boolean duplicateFile;
+    ResultSet resultSet;
+    String specificData;
+    int id ;
+    int retry;
+    String workitemId;
+    String queueName;
+    String state;
+    public void boxPerformer() throws BusinessException, ApplicationException{
         fetchInput = new ExcelUtils();
-        List<Path> allFiles;
-        int numOfInputRows;
-        int i;
-        XSSFRow row;
-        String upc;
-        Boolean duplicateFile;
+        pojoClass = new PojoClass();
 
+        //Initialize the logs
         Util.StartLog();
+
         //Launch the Box Drive Software
         Util.launchBox();
+
         /* Validate if the current date folder is present in Processed Folder
          * Throw Business Exception if the Current date folder is not present
          * Fetch all the files from Current date folder for further processing*/
         allFiles = Util.fetchAllFilesInProcessedFolder();
+
         //Read the Queue Item
-        try {
-            sheet = fetchInput.readInputExcel(Constant.INPUT_EXCEL_FILE_PATH,Constant.INPUT_SHEET_NAME);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        numOfInputRows = sheet.getLastRowNum() - sheet.getFirstRowNum();
-        Log.info("Number of Rows in the input file - " + numOfInputRows);
-        if (numOfInputRows > 0) {
-            for (i = 1; i <= numOfInputRows; i++) {
-                row=sheet.getRow(i);
-                upc = Util.fetchUpc(row);
-                for (Path path : allFiles) {
-                    if (path.toString().contains(upc)) {
-                        System.out.println(path);
-                        duplicateFile  = Util.checkDuplicates(path);
-                        if (duplicateFile){
-                            continue;
+        resultSet = DatabaseUtil.fetchDataFromDb(Constant.SQL_JDBC_URL, Constant.SQL_USER_NAME, Constant.SQL_PASS_WORD,Constant.FETCH_QUEUE_iTEM_QUERY);
+        if (resultSet != null) {
+            try {
+                 /*Process the ResultSet here , for each row in database
+                 until all the items are processed*/
+                while (resultSet.next()) {
+                    // Retrieve column values from the Database
+                    specificData = resultSet.getString("detail");
+                    id = resultSet.getInt("id");
+                    retry = resultSet.getInt("retry");
+                    workitemId = resultSet.getString("work_item_id");
+                    queueName = resultSet.getString("queue_name");
+                    state = resultSet.getString("state");
+
+                    //Set status to inprogress
+                    DatabaseUtil.updateDatabase("status", "InProgress", id);
+
+                     /*Deserialize the Specific data values from Database
+                     Set each values to Pojo Setters */
+                    Util.setSpecificDataToPojo(specificData);
+                    upc = pojoClass.getStrUPC();
+                    int counterCopied = 0;
+                    for (Path path : allFiles) {
+                        if (path.toString().contains(upc)) {
+                            duplicateFile  = Util.checkDuplicates(path);
+                            if (duplicateFile){
+                                continue;
+                            }
+                            try {
+                                counterCopied = counterCopied+1;
+                                Util.copyFileToBox(path);
+                                status = "Success";
+                            } catch (IOException e) {
+                                status = "Failed";
+                                break;
+                            }
                         }
-                        Util.copyFileToBox(path);
                     }
+                    if (counterCopied>0){
+                        DatabaseUtil.updateDatabase("status",status,id);
+                    }else {
+                        DatabaseUtil.updateDatabase("status","New",id);
+                    }
+
+                }
+                System.out.println("No More transactions in the Queue to Process");
+            } catch (SQLException e) {
+                System.err.println("Error processing ResultSet: " + e.getMessage());
+            } finally {
+                try {
+                    // Close the ResultSet, statement, and connection
+                    resultSet.close();
+                } catch (SQLException e) {
+                    System.err.println("Error closing ResultSet: " + e.getMessage());
                 }
             }
+        }
+        try {
             Util.FolderMerger();
+        } catch (IOException e) {
+            throw new RuntimeException("Unable to Merge the duplicate folders in Box folder due to "+e);
         }
-
-        else {
-            System.out.println("Input Excel is empty");
-            Log.info("Input Excel is empty");
-        }
-
     }
-    public static void main(String[] args) throws BusinessException, ApplicationException, IOException {
+    public static void main(String[] args) throws BusinessException, ApplicationException{
         new BoxSyncPerformer().boxPerformer();
     }
 }
