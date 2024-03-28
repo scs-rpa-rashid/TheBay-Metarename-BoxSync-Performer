@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -319,6 +320,18 @@ public class Util {
             }
         });
         return files;
+    }
+    public static String postponeTime (){
+        LocalDateTime dateTime = LocalDateTime.now().withNano(0);
+        dateTime = dateTime.plusMinutes(Constant.POSTPONE_MINUTES);
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        return dateTime.format(dateTimeFormatter);
+    }
+    public static LocalDateTime currentTime(){
+        LocalDateTime dateTime = LocalDateTime.now().withNano(0);
+        DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+        String formattedDateTime = dateTime.format(dateTimeFormatter);
+        return LocalDateTime.parse(formattedDateTime,dateTimeFormatter);
     }
 }
 

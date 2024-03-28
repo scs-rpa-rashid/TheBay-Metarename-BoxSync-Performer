@@ -8,6 +8,8 @@ import java.nio.file.Path;
 import java.io.IOException;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class BoxSyncPerformer {
@@ -24,6 +26,8 @@ public class BoxSyncPerformer {
     String workitemId;
     String queueName;
     String state;
+    String output;
+    String createTimestamp;
     public void boxPerformer() throws BusinessException, ApplicationException{
         fetchInput = new ExcelUtils();
         pojoClass = new PojoClass();
@@ -53,6 +57,34 @@ public class BoxSyncPerformer {
                     workitemId = resultSet.getString("work_item_id");
                     queueName = resultSet.getString("queue_name");
                     state = resultSet.getString("state");
+                    output = resultSet.getString("output");
+                    createTimestamp = resultSet.getString("create_timestamp");
+
+                    if (output != null) {
+                        DateTimeFormatter finalFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+                        DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+                        LocalDateTime existingPostponeVal = LocalDateTime.parse(output, finalFormatter);
+                        LocalDateTime currentTimeVal = Util.currentTime();
+                        LocalDateTime formattedCreatedTime = LocalDateTime.parse(createTimestamp,inputFormatter);
+                        String strCreatedTime = formattedCreatedTime.format(finalFormatter);
+                        LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
+                        int compareResult = existingPostponeVal.compareTo(currentTimeVal);
+                        if (compareResult > 0) {
+                            System.out.println("Not processing this Transaction as it's postponed ," +
+                                    "postponed until - "+existingPostponeVal);
+                            continue;
+                        }
+                        LocalDateTime postponeLimit = finalCreatedTime.plusSeconds(6);
+                       /* LocalDateTime postponeLimit = finalCreatedTime.plusSeconds(6);*/
+                        System.out.println("Postpone Limit - "+postponeLimit);
+                        System.out.println("Current Time - "+currentTimeVal);
+                        int compareResultThreschold = postponeLimit.compareTo(currentTimeVal);
+                        if (compareResultThreschold < 0) {
+                            System.out.println("Failing this Transaction as it has exceeded the Threshold ," +
+                                    "postpone Limit - "+postponeLimit);
+                            continue;
+                        }
+                    }
 
                     //Set status to inprogress
                     DatabaseUtil.updateDatabase("status", "InProgress", id);
@@ -80,8 +112,12 @@ public class BoxSyncPerformer {
                     }
                     if (counterCopied>0){
                         DatabaseUtil.updateDatabase("status",status,id);
+                        DatabaseUtil.updateDatabase("comment",
+                                "Number of Images uploaded to Box - "+String.valueOf(counterCopied),id);
+                        DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName, "TheBay_Workhorse_Performer", "New", specificData, retry);
                     }else {
                         DatabaseUtil.updateDatabase("status","New",id);
+                        DatabaseUtil.updateDatabase("output",Util.postponeTime(),id);
                     }
 
                 }
