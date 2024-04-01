@@ -13,7 +13,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class BoxSyncPerformer {
-    ExcelUtils fetchInput;
+
     PojoClass pojoClass;
     List<Path> allFiles;
     String status = null;
@@ -25,11 +25,17 @@ public class BoxSyncPerformer {
     int retry;
     String workitemId;
     String queueName;
-    String state;
     String output;
     String createTimestamp;
+    DateTimeFormatter finalFormatter;
+    DateTimeFormatter inputFormatter;
+    LocalDateTime existingPostponeVal;
+    LocalDateTime currentTimeVal;
+    LocalDateTime formattedCreatedTime;
+    String strCreatedTime;
+    LocalDateTime finalCreatedTime;
+    LocalDateTime postponeLimit;
     public void boxPerformer() throws BusinessException, ApplicationException{
-        fetchInput = new ExcelUtils();
         pojoClass = new PojoClass();
 
         //Initialize the logs
@@ -56,36 +62,44 @@ public class BoxSyncPerformer {
                     retry = resultSet.getInt("retry");
                     workitemId = resultSet.getString("work_item_id");
                     queueName = resultSet.getString("queue_name");
-                    state = resultSet.getString("state");
                     output = resultSet.getString("output");
                     createTimestamp = resultSet.getString("create_timestamp");
 
+                    /*Output column in SQL Contains the Postpone data,
+                     * below logic is to check if the Transaction is within the postpone time*/
                     if (output != null) {
-                        DateTimeFormatter finalFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-                        DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
-                        LocalDateTime existingPostponeVal = LocalDateTime.parse(output, finalFormatter);
-                        LocalDateTime currentTimeVal = Util.currentTime();
-                        LocalDateTime formattedCreatedTime = LocalDateTime.parse(createTimestamp,inputFormatter);
-                        String strCreatedTime = formattedCreatedTime.format(finalFormatter);
-                        LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
+                        finalFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+                        inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+                        existingPostponeVal = LocalDateTime.parse(output, finalFormatter);
+                        currentTimeVal = Util.currentTime();
+                        formattedCreatedTime = LocalDateTime.parse(createTimestamp,inputFormatter);
+                        strCreatedTime = formattedCreatedTime.format(finalFormatter);
+                        finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
                         int compareResult = existingPostponeVal.compareTo(currentTimeVal);
+
+                        /*If the compareResult is >0 , it implies that the postponed time is greater
+                         * than the current time , and hence this transaction will be skipped*/
                         if (compareResult > 0) {
                             System.out.println("Not processing this Transaction as it's postponed ," +
                                     "postponed until - "+existingPostponeVal);
                             continue;
                         }
-                        LocalDateTime postponeLimit = finalCreatedTime.plusSeconds(6);
-                       /* LocalDateTime postponeLimit = finalCreatedTime.plusSeconds(6);*/
+                        /*Transaction will be failed if the Postpone is exceeding 6 days
+                         * Hence the below Transaction creation time + 6 days
+                         * to check if the current time exceeded the Postpone Limit*/
+                        postponeLimit = finalCreatedTime.plusDays(6);
                         System.out.println("Postpone Limit - "+postponeLimit);
                         System.out.println("Current Time - "+currentTimeVal);
                         int compareResultThreschold = postponeLimit.compareTo(currentTimeVal);
                         if (compareResultThreschold < 0) {
-                            System.out.println("Failing this Transaction as it has exceeded the Threshold ," +
-                                    "postpone Limit - "+postponeLimit);
+                            String reason = "Failing this Transaction as it has exceeded the Threshold ," +
+                                    "postpone Limit - "+postponeLimit;
+                            System.out.println(reason);
+                            DatabaseUtil.updateDatabase("status","Failed",id);
+                            DatabaseUtil.updateDatabase("reason",reason,id);
                             continue;
                         }
                     }
-
                     //Set status to inprogress
                     DatabaseUtil.updateDatabase("status", "InProgress", id);
 
@@ -110,12 +124,17 @@ public class BoxSyncPerformer {
                             }
                         }
                     }
+                    /*If any Image is copied , Update the status accordingly
+                    * Store the Count of number of images processed in "Comment column"*/
                     if (counterCopied>0){
                         DatabaseUtil.updateDatabase("status",status,id);
                         DatabaseUtil.updateDatabase("comment",
-                                "Number of Images uploaded to Box - "+String.valueOf(counterCopied),id);
-                        DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName, "TheBay_Workhorse_Performer", "New", specificData, retry);
+                                "Number of Images uploaded to Box - "+counterCopied,id);
+                        /*Insert the data into the Workhorse Queue*/
+                        DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName,
+                                "TheBay_Workhorse_Performer", "New", specificData, retry);
                     }else {
+                        /*Images not processed , Postpone the Transaction by 30 minutes*/
                         DatabaseUtil.updateDatabase("status","New",id);
                         DatabaseUtil.updateDatabase("output",Util.postponeTime(),id);
                     }
@@ -133,6 +152,7 @@ public class BoxSyncPerformer {
                 }
             }
         }
+        /*Merge the duplicate images in Box folder*/
         try {
             Util.FolderMerger();
         } catch (IOException e) {
