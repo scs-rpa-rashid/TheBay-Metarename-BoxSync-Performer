@@ -13,7 +13,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 public class BoxSyncPerformer {
-
     PojoClass pojoClass;
     List<Path> allFiles;
     String status = null;
@@ -82,19 +81,20 @@ public class BoxSyncPerformer {
                         if (compareResult > 0) {
                             System.out.println("Not processing this Transaction as it's postponed ," +
                                     "postponed until - "+existingPostponeVal);
+                            Log.info("Not processing this Transaction as it's postponed ," +
+                                    "postponed until - "+existingPostponeVal);
                             continue;
                         }
                         /*Transaction will be failed if the Postpone is exceeding 6 days
                          * Hence the below Transaction creation time + 6 days
                          * to check if the current time exceeded the Postpone Limit*/
                         postponeLimit = finalCreatedTime.plusDays(6);
-                        System.out.println("Postpone Limit - "+postponeLimit);
-                        System.out.println("Current Time - "+currentTimeVal);
                         int compareResultThreschold = postponeLimit.compareTo(currentTimeVal);
                         if (compareResultThreschold < 0) {
-                            String reason = "Failing this Transaction as it has exceeded the Threshold ," +
+                            String reason = "Business Exception - Failing this Transaction as it has exceeded the Threshold ," +
                                     "postpone Limit - "+postponeLimit;
                             System.out.println(reason);
+                            Log.info(reason);
                             DatabaseUtil.updateDatabase("status","Failed",id);
                             DatabaseUtil.updateDatabase("reason",reason,id);
                             continue;
@@ -107,6 +107,7 @@ public class BoxSyncPerformer {
                      Set each values to Pojo Setters */
                     Util.setSpecificDataToPojo(specificData);
                     upc = pojoClass.getStrUPC();
+                    Log.info("Processing UPC - "+upc);
                     int counterCopied = 0;
                     for (Path path : allFiles) {
                         if (path.toString().contains(upc)) {
@@ -126,29 +127,20 @@ public class BoxSyncPerformer {
                     }
                     /*If any Image is copied , Update the status accordingly
                     * Store the Count of number of images processed in "Comment column"*/
-                    if (counterCopied>0){
-                        DatabaseUtil.updateDatabase("status",status,id);
-                        DatabaseUtil.updateDatabase("comment",
-                                "Number of Images uploaded to Box - "+counterCopied,id);
-                        /*Insert the data into the Workhorse Queue*/
-                        DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName,
-                                "TheBay_Workhorse_Performer", "New", specificData, retry);
-                    }else {
-                        /*Images not processed , Postpone the Transaction by 30 minutes*/
-                        DatabaseUtil.updateDatabase("status","New",id);
-                        DatabaseUtil.updateDatabase("output",Util.postponeTime(),id);
-                    }
-
+                    Util.updateTransactionStatus(counterCopied,status,id,workitemId,queueName,specificData,upc);
                 }
                 System.out.println("No More transactions in the Queue to Process");
+                Log.info("No More transactions in the Queue to Process");
             } catch (SQLException e) {
                 System.err.println("Error processing ResultSet: " + e.getMessage());
+                Log.error("Error processing ResultSet: " + e.getMessage());
             } finally {
                 try {
                     // Close the ResultSet, statement, and connection
                     resultSet.close();
                 } catch (SQLException e) {
                     System.err.println("Error closing ResultSet: " + e.getMessage());
+                    Log.error("Error closing ResultSet: " + e.getMessage());
                 }
             }
         }
@@ -156,7 +148,9 @@ public class BoxSyncPerformer {
         try {
             Util.FolderMerger();
         } catch (IOException e) {
+            Log.error("Unable to Merge the duplicate folders in Box folder due to "+e);
             throw new RuntimeException("Unable to Merge the duplicate folders in Box folder due to "+e);
+
         }
     }
     public static void main(String[] args) throws BusinessException, ApplicationException{

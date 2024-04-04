@@ -40,7 +40,6 @@ public class DatabaseUtil {
 
             // Execute the insert statement
             int rowsInserted = statement.executeUpdate();
-            System.out.println(statement.toString());
             if (rowsInserted > 0) {
                 System.out.println("Data inserted successfully.");
             } else {
@@ -59,7 +58,6 @@ public class DatabaseUtil {
 
             // Execute the insert statement
             int rowsUpdated  = statement.executeUpdate();
-            System.out.println(statement.toString());
             if (rowsUpdated  > 0) {
                 System.out.println("Data updated successfully");
             } else {
@@ -78,8 +76,25 @@ public class DatabaseUtil {
             // Execute the query and return the ResultSet
             return statement.executeQuery();
         } catch (SQLException e) {
+            Log.error("SQL Error: " + e.getMessage());
             System.err.println("SQL Error: " + e.getMessage());
             return null;
+        }
+    }
+
+    public static void updateDatabaseCustom(String updateQuery) {
+        try (Connection connection = DatabaseUtil.connectDB(Constant.SQL_JDBC_URL, Constant.SQL_USER_NAME, Constant.SQL_PASS_WORD);
+             PreparedStatement statement = connection.prepareStatement(updateQuery)) {
+
+            // Execute the insert statement
+            int rowsUpdated  = statement.executeUpdate();
+            if (rowsUpdated  > 0) {
+                System.out.println("Data updated successfully");
+            } else {
+                System.out.println("Failed to update the data data.");
+            }
+        } catch (SQLException e) {
+            System.err.println("SQL Error: " + e.getMessage());
         }
     }
 }

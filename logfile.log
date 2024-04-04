@@ -547,3 +547,56 @@
 2024-04-01 18:20:14,538 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
 2024-04-01 18:20:14,538 INFO  [Log] **************************************************************************************** 
 2024-04-01 18:20:14,538 INFO  [Log] **************************************************************************************** 
+2024-04-02 18:40:46,098 INFO  [Log] **************************************************************************************** 
+2024-04-02 18:40:46,099 INFO  [Log] **************************************************************************************** 
+2024-04-02 18:40:46,100 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-02 18:40:46,100 INFO  [Log] **************************************************************************************** 
+2024-04-02 18:40:46,101 INFO  [Log] **************************************************************************************** 
+2024-04-02 18:40:46,101 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-02 18:40:46,101 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-02 18:40:51,115 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-02 18:40:51,128 INFO  [Log] Current date folder exists in Processed folder 
+2024-04-02 18:40:55,158 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:41:01,868 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:41:08,615 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:41:15,351 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-02 18:41:21,970 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:41:28,691 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:41:35,394 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-02 18:41:40,289 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-02 18:41:45,190 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-02 18:41:51,866 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-02 18:41:56,756 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:42:03,464 INFO  [Log] Processing UPC - 5715518238252 
+2024-04-02 18:42:10,087 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-02 18:42:16,809 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-02 18:42:21,809 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-02 18:42:28,611 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-02 18:42:33,568 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-02 18:42:38,709 INFO  [Log] No More transactions in the Queue to Process 
+2024-04-03 14:49:50,052 INFO  [Log] **************************************************************************************** 
+2024-04-03 14:49:50,052 INFO  [Log] **************************************************************************************** 
+2024-04-03 14:49:50,054 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-03 14:49:50,054 INFO  [Log] **************************************************************************************** 
+2024-04-03 14:49:50,054 INFO  [Log] **************************************************************************************** 
+2024-04-03 14:49:50,055 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-03 14:49:50,055 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-03 14:49:55,067 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-03 14:49:55,091 INFO  [Log] Current date folder exists in Processed folder 
+2024-04-03 14:49:58,604 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-03 14:50:04,851 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-03 14:50:11,321 INFO  [Log] Processing UPC - 5715518234858 
+2024-04-03 14:50:14,238 INFO  [Log] No More transactions in the Queue to Process 
+2024-04-03 15:07:46,955 INFO  [Log] **************************************************************************************** 
+2024-04-03 15:07:46,955 INFO  [Log] **************************************************************************************** 
+2024-04-03 15:07:46,959 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-03 15:07:46,959 INFO  [Log] **************************************************************************************** 
+2024-04-03 15:07:46,960 INFO  [Log] **************************************************************************************** 
+2024-04-03 15:07:46,960 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-03 15:07:46,961 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-03 15:07:51,976 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-03 15:07:52,006 INFO  [Log] Current date folder exists in Processed folder 
+2024-04-03 15:07:56,358 INFO  [Log] Processing UPC - 5715518238597 
+2024-04-03 15:08:03,579 INFO  [Log] Processing UPC - 5715516984762 
+2024-04-03 15:08:08,813 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-04-03T15:20:12 
+2024-04-03 15:08:08,814 INFO  [Log] No More transactions in the Queue to Process 

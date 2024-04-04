@@ -12,4 +12,4 @@ public class Constant {
     public static final String FETCH_QUEUE_iTEM_QUERY = "SELECT * FROM RPADev.TheBay_DigOps_Metarename_Box.workitem WHERE status = 'New' AND state = 'BoxSyncPerformer'";
     public static final int POSTPONE_MINUTES = 30;
     public static final String SQL_WORKITEM = "INSERT INTO RPADev.TheBay_DigOps_Metarename_Box.workitem (work_item_id, queue_name, state, status, detail, retry) VALUES (?, ?, ?, ?, ?, ?)";
-}
+    }

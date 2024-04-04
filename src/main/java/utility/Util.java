@@ -51,6 +51,23 @@ public class Util {
             e.printStackTrace();
         }
     }
+
+    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String queueName, String specificData,String upc) {
+        if (counterCopied>0){
+            DatabaseUtil.updateDatabase("status",status,id);
+            /*Insert the data into the Workhorse Queue*/
+            DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName,
+                    "TheBay_Workhorse_Performer", "New", specificData, 0);
+            String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+"' WHERE" +
+                    " state ='TheBay_Workhorse_Performer' And detail like '%"+upc+"%' And work_item_id = '"+workitemId+"'";
+            DatabaseUtil.updateDatabaseCustom(updateQuery);
+            }else {
+            /*Images not processed , Postpone the Transaction by 30 minutes*/
+            DatabaseUtil.updateDatabase("status","New",id);
+            DatabaseUtil.updateDatabase("output",Util.postponeTime(),id);
+        }
+    }
+
     public static class Product {
         @JsonProperty("Vendor File Name 1")
         public String vendorFileName1;
@@ -163,16 +180,21 @@ public class Util {
             if (exeFile.exists() && exeFile.canExecute() && !boxPath.exists()) {
                 // Open the file using the system default application
                 Desktop.getDesktop().open(exeFile);
+                Log.info("Application launch triggered successfully.");
                 System.out.println("Application launch triggered successfully.");
             } else {
+                Log.info("File does not exist , cannot be executed or Box Drive is Already Opened");
                 System.out.println("File does not exist , cannot be executed or Box Drive is Already Opened");
             }
             do {
+                Log.info("Waiting for the Box Drive Application launch to complete");
                 System.out.println("Waiting for the Box Drive Application launch to complete");
                 Thread.sleep(5000);
             } while (!boxPath.exists());
+            Log.info("Box Drive Application Launched Successfully");
             System.out.println("Box Drive Application Launched Successfully");
         } catch (IOException e) {
+            Log.error("Error launching application: " + e.getMessage());
             throw new ApplicationException("Error launching application: " + e.getMessage());
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -187,6 +209,7 @@ public class Util {
         File currentDatePath = new File(Constant.METARENAME_PATH + formattedCurrentDate);
         if (currentDatePath.exists()) {
             System.out.println("Current date folder exists in Processed folder");
+            Log.info("Current date folder exists in Processed folder");
             try {
                 fileList = new ArrayList<>();
                 Files.walk(Paths.get(currentDatePath.toURI()), FileVisitOption.FOLLOW_LINKS)
@@ -196,11 +219,11 @@ public class Util {
                 e.printStackTrace();
             }
         } else {
+            Log.error("Current date folder doesn't exists in Processed folder - " + Constant.METARENAME_PATH);
             throw new BusinessException("Current date folder doesn't exists in Processed folder - " + Constant.METARENAME_PATH);
         }
         return fileList;
     }
-
     public static void copyFileToBox(Path path) throws IOException {
         LocalDate date = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M_MMMM_yyyy");
