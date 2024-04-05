@@ -52,13 +52,13 @@ public class Util {
         }
     }
 
-    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String queueName, String specificData,String upc) {
+    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String queueName, String specificData,String upc,List<String> lstNewFileNames) {
         if (counterCopied>0){
             DatabaseUtil.updateDatabase("status",status,id);
             /*Insert the data into the Workhorse Queue*/
             DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName,
                     "TheBay_Workhorse_Performer", "New", specificData, 0);
-            String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+"' WHERE" +
+            String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+",New Vendor File Name - "+String.join(", ", lstNewFileNames)+"' WHERE" +
                     " state ='TheBay_Workhorse_Performer' And detail like '%"+upc+"%' And work_item_id = '"+workitemId+"'";
             DatabaseUtil.updateDatabaseCustom(updateQuery);
             }else {

@@ -10,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 public class BoxSyncPerformer {
@@ -109,6 +110,7 @@ public class BoxSyncPerformer {
                     upc = pojoClass.getStrUPC();
                     Log.info("Processing UPC - "+upc);
                     int counterCopied = 0;
+                    List<String> lstNewFileNames = new ArrayList<>();
                     for (Path path : allFiles) {
                         if (path.toString().contains(upc)) {
                             duplicateFile  = Util.checkDuplicates(path);
@@ -117,6 +119,7 @@ public class BoxSyncPerformer {
                             }
                             try {
                                 counterCopied = counterCopied+1;
+                                lstNewFileNames.add(path.getFileName().toString());
                                 Util.copyFileToBox(path);
                                 status = "Success";
                             } catch (IOException e) {
@@ -127,7 +130,7 @@ public class BoxSyncPerformer {
                     }
                     /*If any Image is copied , Update the status accordingly
                     * Store the Count of number of images processed in "Comment column"*/
-                    Util.updateTransactionStatus(counterCopied,status,id,workitemId,queueName,specificData,upc);
+                    Util.updateTransactionStatus(counterCopied,status,id,workitemId,queueName,specificData,upc,lstNewFileNames);
                 }
                 System.out.println("No More transactions in the Queue to Process");
                 Log.info("No More transactions in the Queue to Process");
