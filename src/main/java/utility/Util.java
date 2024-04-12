@@ -58,7 +58,7 @@ public class Util {
             /*Insert the data into the Workhorse Queue*/
             DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName,
                     "TheBay_Workhorse_Performer", "New", specificData, 0);
-            String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+",New Vendor File Name - "+String.join(", ", lstNewFileNames)+"' WHERE" +
+            String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+":New Vendor File Name - "+String.join(", ", lstNewFileNames)+"' WHERE" +
                     " state ='TheBay_Workhorse_Performer' And detail like '%"+upc+"%' And work_item_id = '"+workitemId+"'";
             DatabaseUtil.updateDatabaseCustom(updateQuery);
             }else {

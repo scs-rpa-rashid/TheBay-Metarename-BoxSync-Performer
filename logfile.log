@@ -613,3 +613,42 @@
 2024-04-05 18:02:10,993 INFO  [Log] Processing UPC - 5715516984762 
 2024-04-05 18:02:18,593 INFO  [Log] Processing UPC - 5715518234858 
 2024-04-05 18:02:22,110 INFO  [Log] No More transactions in the Queue to Process 
+2024-04-11 16:58:26,841 INFO  [Log] **************************************************************************************** 
+2024-04-11 16:58:26,842 INFO  [Log] **************************************************************************************** 
+2024-04-11 16:58:26,846 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-11 16:58:26,847 INFO  [Log] **************************************************************************************** 
+2024-04-11 16:58:26,847 INFO  [Log] **************************************************************************************** 
+2024-04-11 16:58:26,850 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-11 16:58:26,850 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-11 16:58:31,864 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-11 16:58:31,934 INFO  [Log] Current date folder exists in Processed folder 
+2024-04-11 16:58:37,817 INFO  [Log] Processing UPC - 58655714346 
+2024-04-11 16:58:45,032 INFO  [Log] Processing UPC - 58655714384 
+2024-04-11 16:58:52,220 INFO  [Log] Processing UPC - 96018101952 
+2024-04-11 16:58:59,370 INFO  [Log] Processing UPC - 58655714360 
+2024-04-11 16:59:06,342 INFO  [Log] Processing UPC - 58655004379 
+2024-04-11 16:59:11,993 INFO  [Log] No More transactions in the Queue to Process 
+2024-04-11 17:32:10,120 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:32:10,120 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:32:10,125 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-11 17:32:10,126 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:32:10,126 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:32:10,129 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-11 17:32:10,129 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-11 17:32:15,135 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-11 17:32:15,173 INFO  [Log] Current date folder exists in Processed folder 
+2024-04-11 17:32:20,502 INFO  [Log] Processing UPC - 58655714346 
+2024-04-11 17:32:27,812 INFO  [Log] Processing UPC - 58655714384 
+2024-04-11 17:32:35,063 INFO  [Log] Processing UPC - 96018101952 
+2024-04-11 17:32:42,215 INFO  [Log] Processing UPC - 58655714360 
+2024-04-11 17:32:49,580 INFO  [Log] Processing UPC - 58655004379 
+2024-04-11 17:32:55,053 INFO  [Log] No More transactions in the Queue to Process 
+2024-04-11 17:44:48,386 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:44:48,386 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:44:48,392 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-04-11 17:44:48,392 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:44:48,393 INFO  [Log] **************************************************************************************** 
+2024-04-11 17:44:48,395 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-04-11 17:44:48,395 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-04-11 17:44:53,403 INFO  [Log] Box Drive Application Launched Successfully 
+2024-04-11 17:44:53,429 INFO  [Log] Current date folder exists in Processed folder 
