@@ -1,5 +1,6 @@
 package utility;
 
+import bots.BoxSyncPerformer;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import exceptions.ApplicationException;
 import exceptions.BusinessException;
@@ -7,6 +8,7 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
+import java.sql.ResultSet;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -25,13 +27,10 @@ public class Util {
         try {
             // Create ObjectMapper instance
             ObjectMapper objectMapper = new ObjectMapper();
-
             // Deserialize JSON string to Java object
             Product product = objectMapper.readValue(specificData, Product.class);
-
             // Create an instance of PojoClass
             PojoClass pojo = new PojoClass();
-
             // Set values from Product object to PojoClass using setters
             pojo.setStrVendorFileName1(product.getVendorFileName1());
             pojo.setStrDmmVal(product.getDmmGrpId());
@@ -46,12 +45,10 @@ public class Util {
             pojo.setStrOO(product.getEcomOoUnits());
             pojo.setStrGmmVal(product.getGmmDivId());
             pojo.setStrStyleDesc(product.getStyleDescription());
-
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
     public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String queueName, String specificData,String upc,List<String> lstNewFileNames) {
         if (counterCopied>0){
             DatabaseUtil.updateDatabase("status",status,id);
@@ -68,46 +65,100 @@ public class Util {
         }
     }
 
+    public static boolean checkIfTransactionPostponed(String strOutput, String strCreateTimestamp, int intId) {
+        boolean skipTheLoop = false;
+        if (strOutput != null) {
+            DateTimeFormatter finalFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+            DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
+            LocalDateTime existingPostponeVal = LocalDateTime.parse(strOutput, finalFormatter);
+            LocalDateTime currentTimeVal = Util.currentTime();
+            LocalDateTime formattedCreatedTime = LocalDateTime.parse(strCreateTimestamp,inputFormatter);
+            String strCreatedTime = formattedCreatedTime.format(finalFormatter);
+            LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
+            int compareResult = existingPostponeVal.compareTo(currentTimeVal);
+            /*If the compareResult is >0 , it implies that the postponed time is greater
+             * than the current time , and hence this transaction will be skipped
+             * If current time > postpone time then the transaction will be picked*/
+            if (compareResult > 0) {
+                System.out.println("Not processing this Transaction as it's postponed ," +
+                        "postponed until - "+existingPostponeVal);
+                Log.info("Not processing this Transaction as it's postponed ," +
+                        "postponed until - "+existingPostponeVal);
+                /*continue;*/
+                skipTheLoop = true;
+            }
+            /*Transaction will be failed if the Postpone is exceeding 6 days
+             * Hence the below Transaction creation time + 6 days
+             * to check if the current time exceeded the Postpone Limit*/
+            LocalDateTime postponeLimit = finalCreatedTime.plusDays(6);
+            int compareResultThreschold = postponeLimit.compareTo(currentTimeVal);
+            if (compareResultThreschold < 0) {
+                String reason = "Business Exception - Failing this Transaction as it has exceeded the Threshold ," +
+                        "postpone Limit - "+postponeLimit;
+                System.out.println(reason);
+                Log.info(reason);
+                DatabaseUtil.updateDatabase("status","Failed", intId);
+                DatabaseUtil.updateDatabase("reason",reason, intId);
+                /*continue;*/
+                skipTheLoop = true;
+            }
+        }
+        return skipTheLoop;
+    }
+
+    public static void copyImagesAndUpdateStatus(List<Path> lstAllFilesInProcessedFolder, String strUpc, int intId, String strWorkitemId, String strQueueName, String strSpecificData) {
+        int counterCopied = 0;
+        String strStatus = null;
+        List<String> lstNewFileNames = new ArrayList<>();
+        for (Path path : lstAllFilesInProcessedFolder) {
+            if (path.toString().contains(strUpc)) {
+                Boolean boolDuplicateFile = Util.checkDuplicates(path);
+                if (boolDuplicateFile){
+                    continue;
+                }
+                try {
+                    counterCopied = counterCopied+1;
+                    Util.copyFileToBox(path);
+                    lstNewFileNames.add(path.getFileName().toString());
+                    strStatus = "Success";
+                } catch (IOException e) {
+                    strStatus = "Failed";
+                    break;
+                }
+            }
+        }
+        /*If any Image is copied , Update the status accordingly
+         * Store the Count of number of images processed in "Comment column"*/
+        Util.updateTransactionStatus(counterCopied, strStatus, intId, strWorkitemId, strQueueName, strSpecificData, strUpc,lstNewFileNames);
+    }
+
     public static class Product {
         @JsonProperty("Vendor File Name 1")
         public String vendorFileName1;
-
         @JsonProperty("DMM/GRP ID")
         public String dmmGrpId;
-
         @JsonProperty("Color")
         public String color;
-
         @JsonProperty("Class Name")
         public String className;
-
         @JsonProperty("Vendor Style/VPN")
         public String vendorStyleVpn;
-
         @JsonProperty("Brand Name")
         public String brandName;
-
         @JsonProperty("SVS")
         public String svs;
-
         @JsonProperty("Image Upload Date in Workhorse")
         public String imageUploadDate;
-
         @JsonProperty("Photo Override UPC")
         public String photoOverrideUpc;
-
         @JsonProperty("Ecom OH Units")
         public String ecomOhUnits;
-
         @JsonProperty("Ecom OO Units")
         public String ecomOoUnits;
-
         @JsonProperty("GMM/DIV ID")
         public String gmmDivId;
-
         @JsonProperty("Style Description")
         public String styleDescription;
-
         // Getters and setters
         public String getVendorFileName1() {
             return vendorFileName1;
@@ -115,68 +166,52 @@ public class Util {
         public String getDmmGrpId() {
             return dmmGrpId;
         }
-
         public String getColor() {
             return color;
         }
-
         public String getClassName() {
             return className;
         }
-
         public String getVendorStyleVpn() {
             return vendorStyleVpn;
         }
-
         public String getBrandName() {
             return brandName;
         }
-
         public String getSvs() {
             return svs;
         }
-
         public String getImageUploadDate() {
             return imageUploadDate;
         }
-
         public String getPhotoOverrideUpc() {
             return photoOverrideUpc;
         }
-
         public String getEcomOhUnits() {
             return ecomOhUnits;
         }
-
         public String getEcomOoUnits() {
             return ecomOoUnits;
         }
-
         public String getGmmDivId() {
             return gmmDivId;
         }
-
         public String getStyleDescription() {
             return styleDescription;
         }
     }
-
     public static void StartLog() {
         DOMConfigurator.configure("log4j.xml"); //Configure Log 4j
         Log.startTestCase("MetaRename Box Sync");
     }
-
     public static void launchBox() throws ApplicationException {
         try {
             // Specify the path to the executable or application file
             String filePath = Constant.BOX_EXECUTABLEFILE_PATH;
             File boxPath = new File(Constant.BOX_PATH);
-
             // Create a file object for the executable or application
             File exeFile = new File(filePath);
-
             // Check if the file exists and is executable
-
             if (exeFile.exists() && exeFile.canExecute() && !boxPath.exists()) {
                 // Open the file using the system default application
                 Desktop.getDesktop().open(exeFile);
@@ -200,10 +235,9 @@ public class Util {
             throw new RuntimeException(e);
         }
     }
-
     public static List<Path> fetchAllFilesInProcessedFolder() throws BusinessException {
         List<Path> fileList = null;
-        LocalDate date = LocalDate.now();
+        LocalDate date = DateUtil.currentDate();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM_d_yyyy");
         String formattedCurrentDate = date.format(formatter);
         File currentDatePath = new File(Constant.METARENAME_PATH + formattedCurrentDate);
@@ -225,13 +259,12 @@ public class Util {
         return fileList;
     }
     public static void copyFileToBox(Path path) throws IOException {
-        LocalDate date = LocalDate.now();
+        LocalDate date = DateUtil.currentDate();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M_MMMM_yyyy");
         String formattedCurrentDate = date.format(formatter);
         int indexOfProcessed = path.toString().indexOf("Processed");
         String fromDatePath = path.toString().substring(indexOfProcessed + 9);
         String boxPath = Constant.HOME + Constant.BOXDRIVE_PATH + formattedCurrentDate + "_HB_VPI\\" + fromDatePath;
-
         File destinationFile = new File(boxPath);
         if (destinationFile.exists()) {
             System.out.println(destinationFile + " already exists.");
@@ -241,7 +274,6 @@ public class Util {
             Files.copy(path, destinationFile.toPath(), StandardCopyOption.REPLACE_EXISTING);
             System.out.println("File copied successfully to: " + destinationFile);
     }
-
     public static Boolean checkDuplicates(Path path) {
         boolean boolVal = false;
         String patternString = "\\((.*?)\\)";
@@ -265,7 +297,6 @@ public class Util {
         }
         return boolVal;
     }
-
     public static boolean isNumeric (String str){
         try {
             Double.parseDouble(str);
@@ -274,31 +305,24 @@ public class Util {
             return false;
         }
     }
-
     public static void FolderMerger() throws IOException {
-        LocalDate date = LocalDate.now();
+        LocalDate date = DateUtil.currentDate();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M_MMMM_yyyy");
         DateTimeFormatter formatterCurrentDate = DateTimeFormatter.ofPattern("MMMM_d_yyyy");
         String formattedMonthDate = date.format(formatter);
         String formattedCurrDate = date.format(formatterCurrentDate);
         String boxPath = Constant.HOME + Constant.BOXDRIVE_PATH + formattedMonthDate + "_HB_VPI\\" + formattedCurrDate;
-
         // Get the list of files in the duplicate folder
         List<Path> filesInDateFolder;
         List<Path> divisionFolders = new ArrayList<>();
-
         filesInDateFolder = getFilesInFolder(Path.of(boxPath));
-
         for (Path imageFiles : filesInDateFolder) {
             divisionFolders.add(imageFiles.getParent());
         }
-
         // Convert the list to a set to remove duplicates
         Set<Path> uniquePaths = new HashSet<>(divisionFolders);
-
         // Convert the set back to a list
         List<Path> uniqueDivisionFolders = new ArrayList<>(uniquePaths);
-
         for (Path division : uniqueDivisionFolders) {
             if (division.getFileName().toString().toLowerCase().startsWith("division")
                     && division.toString().contains("(")){
@@ -306,22 +330,18 @@ public class Util {
                 Path duplicateFolder = Paths.get(division.toUri());
                 int indexOfDot = division.toString().indexOf("(");
                 Path originalFolder = Paths.get(division.toString().substring(0,indexOfDot));
-
                 try {
                     // Check if the original folder exists
                     if (!Files.exists(originalFolder)) {
                         System.out.println("Original folder does not exist.");
                         return;
                     }
-
                     // Get the list of files in the duplicate folder
                     List<Path> duplicateFiles = getFilesInFolder(duplicateFolder);
-
                     // Move each file from the duplicate folder to the original folder
                     for (Path file : duplicateFiles) {
                         Files.move(file, originalFolder.resolve(file.getFileName()), StandardCopyOption.REPLACE_EXISTING);
                     }
-    
                     // Delete the duplicate folder if it is empty after moving files
                     Files.deleteIfExists(duplicateFolder);
                 } catch (IOException e) {
@@ -331,7 +351,6 @@ public class Util {
         }
 
     }
-
     // Helper method to get the list of files in a folder
     private static List<Path> getFilesInFolder(Path folder) throws IOException {
         List<Path> files = new ArrayList<>();
@@ -355,6 +374,28 @@ public class Util {
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String formattedDateTime = dateTime.format(dateTimeFormatter);
         return LocalDateTime.parse(formattedDateTime,dateTimeFormatter);
+    }
+    public static void updateDbStatusAndRetry(ResultSet resultSet, int retry, int id, String workitemId, String queueName, Exception e, String specificData, String state) throws ApplicationException, BusinessException {
+        if (resultSet!= null) {
+            if (retry < Constant.MAX_RETRY) {
+                DatabaseUtil.updateDatabase("status","Retried",id);
+                DatabaseUtil.updateDatabase("reason",e.getMessage().replace("'", ""),id);
+                retry = retry + 1;
+                DatabaseUtil.insertDataIntoDb(Constant.SQL_WORKITEM, workitemId, queueName, state, "New", specificData, retry);
+                new BoxSyncPerformer().run();
+                Log.error(e.getMessage());
+                /*throw new ApplicationException(e.getMessage());*/
+            } else {
+                DatabaseUtil.updateDatabase("status","Failed",id);
+                DatabaseUtil.updateDatabase("reason",e.getMessage(),id);
+                new BoxSyncPerformer().run();
+                Log.error(e.getMessage());
+                /*throw new ApplicationException(e.getMessage());*/
+            }
+        }else {
+            Log.info("Not Retrying as the Queue Item is not yet Fetched");
+            throw new ApplicationException(e.getMessage());
+        }
     }
 }
 

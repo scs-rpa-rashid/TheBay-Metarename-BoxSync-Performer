@@ -1,6 +1,7 @@
 package utility;
 
 public class Constant {
+    public static final int MAX_RETRY = 2;
     public static final String BOX_PATH = "C:\\Users\\H896753\\Box\\THE BAY VENDOR PROVIDED IMAGES";
     public static final String BOX_EXECUTABLEFILE_PATH = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Box Drive.lnk";
     public static final String METARENAME_PATH = "C:\\Users\\H896753\\Documents\\Processed\\";
