@@ -652,3 +652,1598 @@
 2024-04-11 17:44:48,395 INFO  [Log] Waiting for the Box Drive Application launch to complete 
 2024-04-11 17:44:53,403 INFO  [Log] Box Drive Application Launched Successfully 
 2024-04-11 17:44:53,429 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-22 19:39:23,184 INFO  [Log] **************************************************************************************** 
+2024-05-22 19:39:23,184 INFO  [Log] **************************************************************************************** 
+2024-05-22 19:39:23,184 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-22 19:39:23,184 INFO  [Log] **************************************************************************************** 
+2024-05-22 19:39:23,184 INFO  [Log] **************************************************************************************** 
+2024-05-22 19:39:24,043 INFO  [Log] Application launch triggered successfully. 
+2024-05-22 19:39:24,043 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-22 19:39:29,055 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:38:53,856 INFO  [Log] **************************************************************************************** 
+2024-05-23 19:38:53,857 INFO  [Log] **************************************************************************************** 
+2024-05-23 19:38:53,857 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-23 19:38:53,857 INFO  [Log] **************************************************************************************** 
+2024-05-23 19:38:53,857 INFO  [Log] **************************************************************************************** 
+2024-05-23 19:38:55,256 INFO  [Log] Application launch triggered successfully. 
+2024-05-23 19:38:55,256 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:00,271 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:05,275 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:10,288 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:15,290 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:20,298 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:25,301 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-23 19:39:30,314 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 13:56:16,311 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:56:16,312 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:56:16,312 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 13:56:16,312 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:56:16,312 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:57:58,344 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:57:58,344 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:57:58,344 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 13:57:58,344 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:57:58,344 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:58:36,876 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 13:58:41,893 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 13:58:49,283 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 13:59:13,326 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:13,326 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:13,327 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 13:59:13,327 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:13,327 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:19,916 INFO  [Log] Application launch triggered successfully. 
+2024-05-24 13:59:21,934 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 13:59:30,097 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 13:59:36,235 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-24 13:59:53,753 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:53,754 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:53,754 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 13:59:53,754 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:53,754 INFO  [Log] **************************************************************************************** 
+2024-05-24 13:59:56,116 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 13:59:56,116 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:00:05,711 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:00:05,712 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:00:05,712 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:00:05,712 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:00:05,712 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:00:18,482 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:00:20,042 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:01:01,078 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:02:30,385 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:06:57,102 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:07:25,845 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 14:09:18,797 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:09:19,708 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:09:19,709 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:09:19,709 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:09:19,709 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:09:19,710 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:10:17,528 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:10:17,529 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:11:13,605 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:11:13,606 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:11:13,606 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:11:13,606 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:11:13,606 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:11:13,608 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:11:13,608 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:11:18,618 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:11:22,242 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:11:27,902 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 14:11:34,609 INFO  [Log] Processing UPC - 197868675157 
+2024-05-24 14:18:30,512 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:18:30,513 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:18:30,513 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:18:30,513 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:18:30,513 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:18:30,514 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:18:30,514 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:18:35,528 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:18:39,565 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:18:45,229 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 14:18:45,446 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 14:21:03,491 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:21:03,492 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:21:03,492 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:21:03,492 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:21:03,492 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:21:03,494 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:21:03,494 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:21:08,497 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:21:09,392 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:21:14,128 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:21:14,351 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 14:21:42,214 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:24:04,152 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:34:02,798 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:02,798 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:02,799 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:34:02,799 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:02,799 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:02,800 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:34:02,800 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:34:07,816 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:34:11,826 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:34:19,824 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:34:20,275 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:34:20,769 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:20,769 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:20,769 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:34:20,769 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:20,769 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:34:20,770 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:34:20,770 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:34:25,778 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:34:27,004 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:34:32,185 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 14:34:32,387 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 14:35:31,535 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 14:35:31,535 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:35:32,304 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 14:35:32,631 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 14:35:33,279 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:35:33,279 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:35:33,279 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:35:33,279 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:35:33,279 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:35:33,280 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:35:33,280 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:35:38,283 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:35:38,982 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:35:42,246 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:35:42,248 INFO  [Log] Processing UPC - 15341188423 
+2024-05-24 14:36:13,680 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:36:19,197 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:45:33,274 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:45:33,274 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:45:33,275 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:45:33,275 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:45:33,275 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:45:33,276 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:45:33,276 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:45:38,292 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:45:42,246 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:45:47,661 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:45:47,798 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 14:49:17,206 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:49:17,207 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:49:17,924 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:49:18,262 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 14:49:18,655 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:49:18,655 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:49:18,655 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:49:18,655 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:49:18,655 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:49:18,656 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:49:18,656 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:49:23,668 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:49:28,001 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:49:33,427 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 14:49:33,428 INFO  [Log] Processing UPC - 197868675157 
+2024-05-24 14:50:49,767 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 14:50:55,865 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:50:57,715 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 14:51:28,394 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 14:51:29,161 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:51:29,161 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:51:29,161 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:51:29,161 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:51:29,161 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:51:29,162 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:51:29,163 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:51:34,175 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:51:35,109 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:51:38,740 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 14:51:38,744 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 14:52:14,303 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 14:53:51,739 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:53:52,927 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 14:53:53,313 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 14:53:53,693 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:53:53,693 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:53:53,693 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:53:53,693 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:53:53,693 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:53:53,695 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:53:53,695 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:53:58,702 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:54:02,017 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:54:07,380 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:54:07,384 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 14:54:51,640 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:54:51,640 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:54:52,315 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:54:52,634 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 14:54:53,018 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:54:53,018 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:54:53,018 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:54:53,018 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:54:53,018 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:54:53,019 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:54:53,019 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:54:58,022 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:54:58,678 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:55:02,435 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 14:55:02,439 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 14:56:18,839 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:56:18,840 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:56:18,840 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:56:18,840 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:56:18,840 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:56:18,841 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:56:18,842 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:56:23,843 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:56:25,806 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:56:29,351 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:56:29,518 INFO  [Log] Processing UPC - 15341188423 
+2024-05-24 14:56:59,830 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:57:03,101 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:57:05,180 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:57:14,463 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 14:57:14,866 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:57:14,867 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:57:14,867 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:57:14,867 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:57:14,867 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:57:14,868 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:57:14,868 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:57:19,879 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:57:25,212 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:57:31,373 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 14:57:31,376 INFO  [Log] Processing UPC - 29442523595 
+2024-05-24 14:57:36,228 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 14:57:41,926 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:57:43,955 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 14:58:05,348 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 14:58:05,744 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:58:05,744 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:58:05,744 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 14:58:05,744 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:58:05,744 INFO  [Log] **************************************************************************************** 
+2024-05-24 14:58:05,746 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 14:58:05,746 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 14:58:10,760 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 14:58:11,988 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 14:58:15,071 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 14:58:50,551 INFO  [Log] Processing UPC - 5050808338893 
+2024-05-24 14:59:19,587 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 14:59:24,879 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 14:59:27,632 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 15:04:39,738 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:04:39,738 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:04:39,738 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:04:39,738 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:04:39,738 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:04:39,740 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:04:39,740 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:04:44,753 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:04:49,232 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:04:57,208 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 15:07:07,081 INFO  [Log] Processing UPC - 5050808352721 
+2024-05-24 15:15:40,837 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:15:40,837 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:15:40,838 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:15:40,838 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:15:40,838 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:15:40,839 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:15:40,839 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:15:45,848 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:15:50,596 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:16:01,544 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:16:22,592 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 15:17:11,177 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:17:15,585 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 15:17:19,618 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:18:23,096 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:18:23,096 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:18:23,097 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:18:23,097 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:18:23,097 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:18:23,098 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:18:23,098 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:18:28,113 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:18:28,958 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:18:32,924 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:23:29,345 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:23:29,345 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:23:29,345 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:23:29,345 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:23:29,345 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:23:29,346 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:23:29,346 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:23:34,348 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:23:38,567 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:23:44,733 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 15:23:49,515 INFO  [Log] Processing UPC - 197868675157 
+2024-05-24 15:23:59,023 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 15:23:59,023 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 15:23:59,882 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 15:25:14,820 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T15:53:58 
+2024-05-24 15:25:41,241 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 15:25:54,234 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 15:26:07,229 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 15:26:12,618 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-24 15:31:04,963 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:04,963 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:04,964 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:31:04,964 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:04,964 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:04,965 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:31:04,965 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:31:09,977 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:31:14,256 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:31:25,822 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:31:27,458 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:31:28,583 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:28,583 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:28,583 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:31:28,583 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:28,583 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:28,584 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:31:28,584 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:31:33,593 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:31:34,328 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:31:38,769 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 15:31:38,771 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T15:53:58 
+2024-05-24 15:31:39,689 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 15:31:39,690 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T15:56:06 
+2024-05-24 15:31:40,769 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 15:31:40,896 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 15:31:41,238 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 15:31:41,970 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 15:31:41,970 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:01:40 
+2024-05-24 15:31:42,776 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 15:31:42,777 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 15:31:43,220 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 15:31:44,026 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 15:31:44,027 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:01:42 
+2024-05-24 15:31:46,377 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 15:31:46,380 INFO  [Log] Processing UPC - 15341188423 
+2024-05-24 15:31:47,290 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 15:31:49,574 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 15:31:49,574 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:01:46 
+2024-05-24 15:31:51,651 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 15:31:51,652 INFO  [Log] Processing UPC - 29442523595 
+2024-05-24 15:31:52,540 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 15:31:53,267 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 15:31:53,691 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 15:31:54,219 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:54,219 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:54,219 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:31:54,219 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:54,219 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:31:54,220 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:31:54,220 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:31:59,227 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:31:59,934 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:32:03,389 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 15:32:03,390 INFO  [Log] Processing UPC - 5050808338893 
+2024-05-24 15:32:03,791 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 15:32:04,463 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 15:32:04,464 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:02:03 
+2024-05-24 15:32:05,235 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 15:32:05,236 INFO  [Log] Processing UPC - 5050808352721 
+2024-05-24 15:32:05,635 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 15:32:06,908 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 15:32:06,909 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:02:05 
+2024-05-24 15:32:07,609 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 15:32:07,610 INFO  [Log] Processing UPC - 729238216891 
+2024-05-24 15:32:08,066 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 15:32:08,889 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 15:32:08,890 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:02:07 
+2024-05-24 15:32:09,580 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 15:32:09,581 INFO  [Log] Processing UPC - 729238217744 
+2024-05-24 15:32:09,974 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 15:32:10,650 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 15:32:11,068 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 15:32:11,503 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:11,503 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:11,503 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:32:11,503 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:11,503 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:11,504 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:32:11,504 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:32:16,511 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:32:17,214 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:32:30,673 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 15:32:30,674 INFO  [Log] Processing UPC - 197868701085 
+2024-05-24 15:32:32,544 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 15:32:33,208 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 15:32:33,575 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 15:32:34,000 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:34,000 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:34,000 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:32:34,000 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:34,000 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:32:34,001 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:32:34,001 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:35:25,948 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:35:25,949 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:35:25,949 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:35:25,949 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:35:25,949 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:35:25,950 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:35:25,950 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:35:30,965 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:35:34,568 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:35:40,451 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:36:17,336 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 15:36:22,104 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:42:12,165 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:42:12,165 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:42:12,166 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:42:12,166 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:42:12,166 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:42:12,167 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:42:12,167 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:42:17,179 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:42:21,304 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:42:36,436 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:43:24,044 INFO  [Log] Transaction Retried 
+2024-05-24 15:43:29,589 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:43:29,590 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:43:29,590 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:43:29,590 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:43:29,590 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:43:29,591 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:43:29,592 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:43:34,599 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:43:35,305 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:43:44,634 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:45:39,089 INFO  [Log] Transaction Retried 
+2024-05-24 15:45:55,182 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:45:55,183 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:45:55,183 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 15:45:55,183 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:45:55,183 INFO  [Log] **************************************************************************************** 
+2024-05-24 15:45:55,184 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 15:45:55,184 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 15:46:00,194 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 15:46:03,808 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 15:46:09,635 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 15:55:41,753 INFO  [Log] Transaction Retried 
+2024-05-24 16:04:18,352 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:04:18,352 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:04:18,353 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:04:18,353 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:04:18,353 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:04:18,354 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:04:18,354 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:04:23,358 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:04:28,561 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:04:35,443 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 16:04:35,578 INFO  [Log] Processing UPC - 197868675157 
+2024-05-24 16:05:02,367 INFO  [Log] Transaction postponed 
+2024-05-24 16:05:03,580 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 16:05:09,906 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 16:06:03,882 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:35:02 
+2024-05-24 16:06:05,491 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 16:06:05,495 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 16:06:14,949 INFO  [Log] Transaction postponed 
+2024-05-24 16:06:20,991 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 16:06:25,848 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 16:06:41,762 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:36:19 
+2024-05-24 16:06:49,177 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 16:06:49,181 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 16:06:49,181 INFO  [Log] Transaction postponed 
+2024-05-24 16:06:50,414 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 16:06:51,761 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 16:07:08,534 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:36:49 
+2024-05-24 16:07:10,487 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 16:07:10,495 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 16:07:10,495 INFO  [Log] Transaction postponed 
+2024-05-24 16:07:10,842 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 16:07:12,277 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 16:07:21,274 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:37:10 
+2024-05-24 16:07:28,898 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 16:07:28,901 INFO  [Log] Processing UPC - 15341188423 
+2024-05-24 16:07:28,901 INFO  [Log] Transaction postponed 
+2024-05-24 16:07:29,306 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 16:07:30,206 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 16:07:49,691 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:37:28 
+2024-05-24 16:07:51,052 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 16:07:51,059 INFO  [Log] Processing UPC - 29442523595 
+2024-05-24 16:07:51,059 INFO  [Log] Transaction postponed 
+2024-05-24 16:07:51,483 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 16:07:53,221 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 16:14:22,786 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:37:51 
+2024-05-24 16:15:20,353 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:15:20,353 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:15:20,353 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:15:20,354 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:15:20,354 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:15:20,355 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:15:20,355 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:15:25,359 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:15:31,015 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:15:39,780 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 16:17:38,727 INFO  [Log] Processing UPC - 5050808338893 
+2024-05-24 16:17:38,728 INFO  [Log] Transaction postponed 
+2024-05-24 16:17:41,122 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 16:17:43,491 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 16:18:05,114 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:47:38 
+2024-05-24 16:18:06,922 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 16:21:09,815 INFO  [Log] Processing UPC - 5050808352721 
+2024-05-24 16:21:09,815 INFO  [Log] Transaction postponed 
+2024-05-24 16:23:14,630 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:14,631 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:14,631 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:23:14,631 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:14,631 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:14,632 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:23:14,632 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:23:19,638 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:23:52,571 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:52,571 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:52,572 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:23:52,572 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:52,572 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:23:52,573 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:23:52,573 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:23:57,584 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:24:07,102 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:24:33,801 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 16:24:46,358 INFO  [Log] Processing UPC - 729238216891 
+2024-05-24 16:24:46,358 INFO  [Log] Transaction postponed 
+2024-05-24 16:24:47,166 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 16:24:47,937 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 16:24:53,188 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T16:54:46 
+2024-05-24 16:24:55,162 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 16:24:55,166 INFO  [Log] Processing UPC - 729238217744 
+2024-05-24 16:24:55,166 INFO  [Log] Transaction postponed 
+2024-05-24 16:24:55,548 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 16:24:56,241 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 16:24:59,989 INFO  [Log] Transaction Retried 
+2024-05-24 16:25:01,167 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 16:25:02,899 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:25:02,899 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:25:02,899 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:25:02,899 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:25:02,899 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:25:02,900 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:25:02,900 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:25:07,915 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:25:08,814 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:25:12,483 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 16:25:12,487 INFO  [Log] Processing UPC - 197868701085 
+2024-05-24 16:25:12,487 INFO  [Log] Transaction postponed 
+2024-05-24 16:25:13,453 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 16:25:15,326 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 16:32:16,205 INFO  [Log] Transaction Retried 
+2024-05-24 16:32:29,321 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:32:29,322 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:32:29,322 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:32:29,322 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:32:29,322 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:32:29,323 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:32:29,323 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:32:34,326 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:32:42,705 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:34:13,543 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 16:34:14,167 INFO  [Log] Processing UPC - 197098087287 
+2024-05-24 16:34:14,167 INFO  [Log] Transaction postponed 
+2024-05-24 16:34:14,818 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 16:35:01,551 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 16:35:07,563 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:04:14 
+2024-05-24 16:35:17,732 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 16:35:17,741 INFO  [Log] Processing UPC - 5715518599896 
+2024-05-24 16:35:17,742 INFO  [Log] Transaction postponed 
+2024-05-24 16:35:18,455 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 16:35:24,881 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 16:35:24,884 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:05:17 
+2024-05-24 16:50:27,714 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:50:27,715 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:50:27,715 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:50:27,715 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:50:27,715 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:50:27,716 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:50:27,716 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:50:32,722 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:50:37,042 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:50:51,169 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 16:50:51,317 INFO  [Log] Processing UPC - 15341075976 
+2024-05-24 16:50:51,317 INFO  [Log] Transaction postponed 
+2024-05-24 16:50:51,667 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 16:50:52,723 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 16:51:19,003 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:20:51 
+2024-05-24 16:51:30,964 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 16:51:30,969 INFO  [Log] Processing UPC - 197868706417 
+2024-05-24 16:51:30,970 INFO  [Log] Transaction postponed 
+2024-05-24 16:51:31,336 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 16:51:32,028 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 16:51:43,076 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:21:30 
+2024-05-24 16:51:44,244 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 16:51:54,499 INFO  [Log] Processing UPC - 5050808116620 
+2024-05-24 16:51:54,500 INFO  [Log] Transaction postponed 
+2024-05-24 16:51:55,663 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 16:51:56,352 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 16:52:09,828 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:21:54 
+2024-05-24 16:52:10,923 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 16:52:11,859 INFO  [Log] Processing UPC - 197868033728 
+2024-05-24 16:52:11,859 INFO  [Log] Transaction postponed 
+2024-05-24 16:52:13,123 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 16:52:14,577 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 16:52:27,582 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:22:11 
+2024-05-24 16:52:29,742 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 16:52:40,883 INFO  [Log] Processing UPC - 68459311344 
+2024-05-24 16:52:40,883 INFO  [Log] Transaction postponed 
+2024-05-24 16:52:42,126 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 16:52:43,967 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 16:53:04,921 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:22:40 
+2024-05-24 16:53:06,576 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 16:53:18,109 INFO  [Log] Processing UPC - 197868700569 
+2024-05-24 16:53:18,110 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:18,847 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 16:53:19,723 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 16:53:19,724 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:18 
+2024-05-24 16:53:26,725 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 16:53:26,729 INFO  [Log] Processing UPC - 729238216884 
+2024-05-24 16:53:26,729 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:27,449 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 16:53:28,443 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 16:53:28,446 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:26 
+2024-05-24 16:53:30,374 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 16:53:30,381 INFO  [Log] Processing UPC - 197868727900 
+2024-05-24 16:53:30,381 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:30,741 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 16:53:31,483 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 16:53:31,485 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:30 
+2024-05-24 16:53:32,976 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 16:53:32,981 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 16:53:32,982 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:33,674 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 16:53:35,387 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 16:53:35,388 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:32 
+2024-05-24 16:53:37,096 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 16:53:37,103 INFO  [Log] Processing UPC - 197868702860 
+2024-05-24 16:53:37,104 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:37,897 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 16:53:38,643 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 16:53:38,644 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:37 
+2024-05-24 16:53:39,403 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 16:53:39,409 INFO  [Log] Processing UPC - 194523213105 
+2024-05-24 16:53:39,409 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:39,776 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 16:53:40,447 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 16:53:40,450 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:39 
+2024-05-24 16:53:42,089 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 16:53:42,092 INFO  [Log] Processing UPC - 197383414965 
+2024-05-24 16:53:42,093 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:42,437 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 16:53:43,208 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 16:53:43,209 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:42 
+2024-05-24 16:53:44,641 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 16:53:44,645 INFO  [Log] Processing UPC - 729238217614 
+2024-05-24 16:53:44,645 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:45,392 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 16:53:46,463 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 16:53:46,466 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:44 
+2024-05-24 16:53:47,285 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 16:53:47,289 INFO  [Log] Processing UPC - 627919258157 
+2024-05-24 16:53:47,290 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:47,741 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 16:53:50,081 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 16:53:50,083 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:47 
+2024-05-24 16:53:50,788 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 16:53:50,792 INFO  [Log] Processing UPC - 197383415016 
+2024-05-24 16:53:50,793 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:51,184 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 16:53:52,323 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 16:53:52,327 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:50 
+2024-05-24 16:53:54,127 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 16:53:54,132 INFO  [Log] Processing UPC - 197868676345 
+2024-05-24 16:53:54,132 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:54,481 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 16:53:55,205 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 16:53:55,207 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:54 
+2024-05-24 16:53:56,590 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 16:53:56,594 INFO  [Log] Processing UPC - 197868678523 
+2024-05-24 16:53:56,594 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:57,391 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 16:53:58,215 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 16:53:58,216 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:56 
+2024-05-24 16:53:58,926 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 16:53:58,930 INFO  [Log] Processing UPC - 5056305042059 
+2024-05-24 16:53:58,931 INFO  [Log] Transaction postponed 
+2024-05-24 16:53:59,313 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 16:54:01,403 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 16:54:01,406 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:23:58 
+2024-05-24 16:54:02,135 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 16:54:02,139 INFO  [Log] Processing UPC - 197868677311 
+2024-05-24 16:54:02,139 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:02,528 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 16:54:03,377 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 16:54:03,380 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:02 
+2024-05-24 16:54:05,247 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 16:54:05,251 INFO  [Log] Processing UPC - 197868678400 
+2024-05-24 16:54:05,251 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:05,641 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 16:54:06,302 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 16:54:06,304 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:05 
+2024-05-24 16:54:07,008 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 16:54:07,015 INFO  [Log] Processing UPC - 828432656899 
+2024-05-24 16:54:07,015 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:07,379 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 16:54:09,820 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 16:54:09,821 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:07 
+2024-05-24 16:54:10,645 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 16:54:10,649 INFO  [Log] Processing UPC - 197868727818 
+2024-05-24 16:54:10,649 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:11,053 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 16:54:12,243 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 16:54:12,244 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:10 
+2024-05-24 16:54:14,442 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 16:54:14,447 INFO  [Log] Processing UPC - 194145189529 
+2024-05-24 16:54:14,448 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:14,884 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 16:54:15,843 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 16:54:15,844 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:14 
+2024-05-24 16:54:21,459 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 16:54:21,466 INFO  [Log] Processing UPC - 198110175661 
+2024-05-24 16:54:21,466 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:29,745 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 16:54:30,486 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 16:54:30,488 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:21 
+2024-05-24 16:54:32,132 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 16:54:32,136 INFO  [Log] Processing UPC - 5715433876645 
+2024-05-24 16:54:32,136 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:32,662 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 16:54:34,821 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 16:54:34,822 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:32 
+2024-05-24 16:54:38,065 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 16:54:38,069 INFO  [Log] Processing UPC - 197524226952 
+2024-05-24 16:54:38,069 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:38,880 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 16:54:39,732 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 16:54:39,733 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:38 
+2024-05-24 16:54:42,655 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 16:54:42,660 INFO  [Log] Processing UPC - 194145419107 
+2024-05-24 16:54:42,660 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:43,033 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 16:54:45,362 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 16:54:45,364 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:42 
+2024-05-24 16:54:46,725 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 16:54:46,729 INFO  [Log] Processing UPC - 197868673764 
+2024-05-24 16:54:46,729 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:47,367 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 16:54:50,201 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 16:54:50,202 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:46 
+2024-05-24 16:54:50,902 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 16:54:50,906 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 16:54:50,907 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:51,241 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 16:54:51,994 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 16:54:51,997 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:50 
+2024-05-24 16:54:52,840 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 16:54:52,844 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 16:54:52,845 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:53,224 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 16:54:53,951 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 16:54:53,952 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:52 
+2024-05-24 16:54:54,680 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 16:54:54,684 INFO  [Log] Processing UPC - 5715610370447 
+2024-05-24 16:54:54,685 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:55,027 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 16:54:56,264 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 16:54:56,265 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:54 
+2024-05-24 16:54:57,685 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 16:54:57,689 INFO  [Log] Processing UPC - 193238163903 
+2024-05-24 16:54:57,690 INFO  [Log] Transaction postponed 
+2024-05-24 16:54:58,251 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 16:54:59,362 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 16:54:59,363 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:24:57 
+2024-05-24 16:55:00,921 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 16:55:00,926 INFO  [Log] Processing UPC - 193624978876 
+2024-05-24 16:55:00,927 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:01,334 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 16:55:02,048 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 16:55:02,050 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25 
+2024-05-24 16:55:02,769 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 16:55:02,773 INFO  [Log] Processing UPC - 197868678097 
+2024-05-24 16:55:02,774 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:03,121 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 16:55:04,128 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 16:55:04,129 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:02 
+2024-05-24 16:55:05,681 INFO  [Log] Updated columns for id: 1947 
+2024-05-24 16:55:05,684 INFO  [Log] Processing UPC - 627919213934 
+2024-05-24 16:55:05,684 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:11,811 INFO  [Log] Updated columns for id: 1947 
+2024-05-24 16:55:14,206 INFO  [Log] Updated columns for id: 1947 
+2024-05-24 16:55:14,207 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:05 
+2024-05-24 16:55:16,388 INFO  [Log] Updated columns for id: 1948 
+2024-05-24 16:55:16,392 INFO  [Log] Processing UPC - 68459311320 
+2024-05-24 16:55:16,392 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:17,326 INFO  [Log] Updated columns for id: 1948 
+2024-05-24 16:55:18,103 INFO  [Log] Updated columns for id: 1948 
+2024-05-24 16:55:18,107 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:16 
+2024-05-24 16:55:19,053 INFO  [Log] Updated columns for id: 1949 
+2024-05-24 16:55:19,057 INFO  [Log] Processing UPC - 5056305060381 
+2024-05-24 16:55:19,057 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:20,442 INFO  [Log] Updated columns for id: 1949 
+2024-05-24 16:55:21,568 INFO  [Log] Updated columns for id: 1949 
+2024-05-24 16:55:21,571 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:19 
+2024-05-24 16:55:22,267 INFO  [Log] Updated columns for id: 1950 
+2024-05-24 16:55:22,270 INFO  [Log] Processing UPC - 729238217713 
+2024-05-24 16:55:22,271 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:22,589 INFO  [Log] Updated columns for id: 1950 
+2024-05-24 16:55:23,281 INFO  [Log] Updated columns for id: 1950 
+2024-05-24 16:55:23,282 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:22 
+2024-05-24 16:55:24,094 INFO  [Log] Updated columns for id: 1951 
+2024-05-24 16:55:24,099 INFO  [Log] Processing UPC - 197383415115 
+2024-05-24 16:55:24,099 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:24,467 INFO  [Log] Updated columns for id: 1951 
+2024-05-24 16:55:25,166 INFO  [Log] Updated columns for id: 1951 
+2024-05-24 16:55:25,167 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:24 
+2024-05-24 16:55:25,962 INFO  [Log] Updated columns for id: 1952 
+2024-05-24 16:55:33,435 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 16:55:33,436 INFO  [Log] Transaction postponed 
+2024-05-24 16:55:34,204 INFO  [Log] Updated columns for id: 1952 
+2024-05-24 16:55:37,827 INFO  [Log] Updated columns for id: 1952 
+2024-05-24 16:56:36,880 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:25:33 
+2024-05-24 16:57:47,670 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:57:47,671 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:57:47,671 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 16:57:47,671 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:57:47,671 INFO  [Log] **************************************************************************************** 
+2024-05-24 16:57:47,672 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 16:57:47,672 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 16:57:52,675 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 16:57:57,855 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 16:58:06,974 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 16:58:46,595 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 16:58:46,595 INFO  [Log] Transaction postponed 
+2024-05-24 16:59:39,300 ERROR [Log] Failure while updating data to queue item: HikariPool-1 - Connection is not available, request timed out after 52681ms. 
+2024-05-24 16:59:39,301 INFO  [Log] Transaction Retried 
+2024-05-24 17:00:02,118 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:00:02,565 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:00:02,566 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:00:02,566 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:00:02,566 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:00:02,566 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:00:02,567 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:00:02,567 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:00:07,573 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 17:00:10,318 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 17:00:15,410 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 17:00:49,075 INFO  [Log] Processing UPC - 197868675157 
+2024-05-24 17:00:49,075 INFO  [Log] Transaction postponed 
+2024-05-24 17:00:49,909 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 17:00:50,586 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 17:01:09,881 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:30:49 
+2024-05-24 17:02:18,263 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 17:02:19,527 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 17:02:19,528 INFO  [Log] Transaction postponed 
+2024-05-24 17:06:01,203 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:06:01,204 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:06:01,204 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:06:01,204 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:06:01,204 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:06:01,205 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:06:01,205 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:06:06,214 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 17:06:10,301 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 17:06:15,437 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:31,406 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 17:13:31,406 INFO  [Log] Transaction postponed 
+2024-05-24 17:13:32,144 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:32,892 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:32,894 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:33,234 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:34,015 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:34,015 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:34,483 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:35,286 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:35,287 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:35,680 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:36,401 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:36,402 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:36,734 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:37,401 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:37,402 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:37,749 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:38,460 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:38,461 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:38,770 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:39,550 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:39,550 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:39,909 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:41,284 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:41,285 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:41,676 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:42,350 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:42,351 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:42,669 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:43,357 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:43,358 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:43,698 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:44,375 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:44,375 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:44,694 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:45,850 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:45,851 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:46,201 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:46,869 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:46,870 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:47,195 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:48,155 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:48,155 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:49,125 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:51,010 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:51,010 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:51,349 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:52,047 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:52,048 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:52,709 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:53,730 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:53,731 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:54,051 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:54,773 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:54,774 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:55,096 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:55,829 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:55,830 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:56,195 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:56,844 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:56,844 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:57,191 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:57,940 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:57,940 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:58,283 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:58,950 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:13:58,951 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:13:59,258 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:00,051 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:00,052 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:00,434 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:01,116 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:01,117 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:01,458 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:02,138 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:02,138 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:02,451 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:03,089 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:03,089 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:03,447 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:04,095 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:04,095 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:04,445 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:05,213 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:05,213 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:05,574 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:06,324 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:06,324 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:06,675 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:07,415 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:07,415 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:07,765 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:08,521 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:08,522 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:08,921 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:09,595 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:09,595 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:09,890 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:10,579 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:10,580 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:10,893 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:11,569 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:11,570 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:11,975 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:12,688 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:12,689 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:13,030 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:13,656 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:13,657 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:14,031 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:14,750 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:14,750 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:15,230 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:16,816 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:16,816 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:17,149 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:18,431 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:18,432 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:18,807 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:19,471 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:19,471 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:19,779 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:20,492 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:20,492 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:20,819 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:21,456 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:21,458 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:21,779 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:22,458 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:22,459 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:22,797 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:23,459 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:23,461 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:24,102 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:25,130 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:25,130 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:25,472 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:26,130 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:26,130 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:26,446 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:27,093 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:27,093 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:27,436 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:28,134 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:28,135 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:28,461 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:29,131 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:29,132 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:29,476 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:30,230 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:30,230 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:30,630 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:31,356 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:31,356 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:31,710 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:32,412 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:32,412 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:32,766 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:33,431 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:33,432 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:33,766 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:34,463 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:34,464 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:34,801 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:35,516 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:35,517 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:35,874 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:36,605 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:36,606 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:37,020 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:37,692 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:37,692 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:38,170 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:38,937 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:38,937 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:39,279 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:40,032 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:40,032 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:40,391 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:41,121 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:41,122 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:41,503 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:42,199 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:42,200 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:42,530 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:43,282 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:43,283 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:43,612 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:44,247 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:44,248 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:44,567 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:45,236 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:45,236 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:45,572 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:46,236 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:46,236 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:46,592 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:47,272 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:47,272 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:47,637 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:48,806 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:48,806 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:49,596 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:50,420 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:50,420 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:50,752 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:51,406 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:51,406 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:51,737 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:52,367 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:52,367 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:52,691 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:53,447 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:53,448 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:53,767 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:55,685 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:55,686 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:56,049 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:56,724 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:56,725 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:57,047 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:57,836 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:57,836 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:58,192 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:58,886 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:58,886 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:14:59,246 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:59,910 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:14:59,911 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:00,249 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:00,991 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:00,991 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:01,309 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:01,992 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:01,992 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:02,291 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:03,082 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:03,082 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:03,406 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:04,050 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:04,050 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:04,415 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:05,042 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:05,043 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:05,393 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:06,110 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:06,111 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:06,487 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:07,130 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:07,130 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:07,497 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:08,245 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:08,246 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:08,594 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:12,170 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:12,171 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:12,840 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:13,636 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:13,637 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:15:31,094 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:15:31,094 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:15:31,094 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:15:31,094 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:15:31,095 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:15:31,096 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:15:31,096 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:15:36,105 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 17:15:39,836 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 17:15:45,337 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:15:54,457 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:16:00,934 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:16:08,894 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:16:24,461 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:16:28,611 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:16:31,609 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:16:44,722 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:16:47,417 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:18:35,405 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:35,405 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:35,405 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:18:35,406 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:35,406 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:35,407 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:18:35,407 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:18:43,148 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:43,148 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:43,149 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:18:43,149 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:43,149 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:18:43,150 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:18:43,150 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:18:48,160 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 17:18:48,942 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 17:18:54,463 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:07,024 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:08,197 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:08,851 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:08,852 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:09,195 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:09,887 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:09,889 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:10,204 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:10,836 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:10,837 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:11,201 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:11,864 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:11,865 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:12,201 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:12,891 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:12,892 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:13,218 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:13,862 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:13,863 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:14,235 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:14,920 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:14,923 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:15,296 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:15,956 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:15,960 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:16,275 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:16,966 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:16,970 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:17,291 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:17,941 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:17,943 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:18,367 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:19,076 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:19,079 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:19,476 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:20,127 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:20,129 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:20,457 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:21,141 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:21,143 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:21,446 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:22,157 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:22,160 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:22,494 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:23,196 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:23,198 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:23,501 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:24,168 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:24,169 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:24,527 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:25,222 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:25,223 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:25,531 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:26,315 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:26,317 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:26,648 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:27,283 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:27,285 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:27,611 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:28,275 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:28,277 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:28,611 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:29,276 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:29,278 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:29,601 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:30,284 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:30,286 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:30,615 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:31,286 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:31,287 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:31,620 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:32,275 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:32,276 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:19:32,573 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:33,330 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:19:33,332 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:20:46,929 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:20:46,930 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:20:46,930 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 17:20:46,930 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:20:46,930 INFO  [Log] **************************************************************************************** 
+2024-05-24 17:20:46,931 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 17:20:46,931 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 17:20:51,939 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 17:20:52,738 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 17:20:55,736 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 17:20:55,888 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:43:31 
+2024-05-24 17:20:56,563 INFO  [Log] Updated columns for id: 1897 
+2024-05-24 17:20:56,566 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:30:49 
+2024-05-24 17:20:57,222 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 17:20:57,225 INFO  [Log] Processing UPC - 197868678424 
+2024-05-24 17:20:57,225 INFO  [Log] Transaction postponed 
+2024-05-24 17:20:57,563 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 17:20:58,288 INFO  [Log] Updated columns for id: 1898 
+2024-05-24 17:20:58,290 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:50:57 
+2024-05-24 17:20:58,937 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 17:20:58,938 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 17:20:58,938 INFO  [Log] Transaction postponed 
+2024-05-24 17:20:59,358 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 17:21:00,163 INFO  [Log] Updated columns for id: 1899 
+2024-05-24 17:21:00,166 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:50:58 
+2024-05-24 17:21:00,847 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 17:21:00,848 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 17:21:00,848 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:01,204 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 17:21:01,889 INFO  [Log] Updated columns for id: 1900 
+2024-05-24 17:21:01,891 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51 
+2024-05-24 17:21:02,540 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 17:21:02,541 INFO  [Log] Processing UPC - 15341188423 
+2024-05-24 17:21:02,541 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:02,857 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 17:21:03,649 INFO  [Log] Updated columns for id: 1901 
+2024-05-24 17:21:03,653 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:02 
+2024-05-24 17:21:04,338 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 17:21:04,339 INFO  [Log] Processing UPC - 29442523595 
+2024-05-24 17:21:04,339 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:04,691 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 17:21:05,413 INFO  [Log] Updated columns for id: 1902 
+2024-05-24 17:21:05,415 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:04 
+2024-05-24 17:21:06,077 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 17:21:06,080 INFO  [Log] Processing UPC - 5050808338893 
+2024-05-24 17:21:06,080 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:06,438 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 17:21:07,042 INFO  [Log] Updated columns for id: 1903 
+2024-05-24 17:21:07,044 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:06 
+2024-05-24 17:21:07,780 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 17:21:07,782 INFO  [Log] Processing UPC - 5050808352721 
+2024-05-24 17:21:07,783 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:08,117 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 17:21:08,724 INFO  [Log] Updated columns for id: 1904 
+2024-05-24 17:21:08,725 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:07 
+2024-05-24 17:21:09,364 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 17:21:09,365 INFO  [Log] Processing UPC - 729238216891 
+2024-05-24 17:21:09,365 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:09,677 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 17:21:10,411 INFO  [Log] Updated columns for id: 1905 
+2024-05-24 17:21:10,411 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:09 
+2024-05-24 17:21:11,046 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 17:21:11,049 INFO  [Log] Processing UPC - 729238217744 
+2024-05-24 17:21:11,049 INFO  [Log] Transaction postponed 
+2024-05-24 17:21:11,419 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 17:21:17,507 INFO  [Log] Updated columns for id: 1906 
+2024-05-24 17:22:19,864 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:51:11 
+2024-05-24 17:22:50,305 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 17:23:17,593 INFO  [Log] Processing UPC - 197868701085 
+2024-05-24 17:23:40,724 INFO  [Log] Transaction postponed 
+2024-05-24 17:23:53,993 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 17:23:59,041 INFO  [Log] Updated columns for id: 1907 
+2024-05-24 17:24:19,234 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:53:53 
+2024-05-24 17:24:20,206 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 17:24:20,210 INFO  [Log] Processing UPC - 197098087287 
+2024-05-24 17:24:29,296 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:29,965 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 17:24:30,614 INFO  [Log] Updated columns for id: 1909 
+2024-05-24 17:24:30,619 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:29 
+2024-05-24 17:24:31,293 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 17:24:31,297 INFO  [Log] Processing UPC - 5715518599896 
+2024-05-24 17:24:31,298 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:31,612 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 17:24:32,371 INFO  [Log] Updated columns for id: 1910 
+2024-05-24 17:24:32,376 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:31 
+2024-05-24 17:24:33,111 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 17:24:33,116 INFO  [Log] Processing UPC - 15341075976 
+2024-05-24 17:24:33,116 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:33,427 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 17:24:34,096 INFO  [Log] Updated columns for id: 1912 
+2024-05-24 17:24:34,103 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:33 
+2024-05-24 17:24:34,734 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 17:24:34,740 INFO  [Log] Processing UPC - 197868706417 
+2024-05-24 17:24:34,740 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:35,072 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 17:24:35,732 INFO  [Log] Updated columns for id: 1913 
+2024-05-24 17:24:35,737 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:34 
+2024-05-24 17:24:36,407 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 17:24:36,415 INFO  [Log] Processing UPC - 5050808116620 
+2024-05-24 17:24:36,415 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:36,738 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 17:24:37,416 INFO  [Log] Updated columns for id: 1914 
+2024-05-24 17:24:37,422 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:36 
+2024-05-24 17:24:38,114 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 17:24:38,118 INFO  [Log] Processing UPC - 197868033728 
+2024-05-24 17:24:38,119 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:38,480 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 17:24:39,214 INFO  [Log] Updated columns for id: 1915 
+2024-05-24 17:24:39,219 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:38 
+2024-05-24 17:24:39,974 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 17:24:39,982 INFO  [Log] Processing UPC - 68459311344 
+2024-05-24 17:24:39,982 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:40,366 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 17:24:41,103 INFO  [Log] Updated columns for id: 1916 
+2024-05-24 17:24:41,108 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:39 
+2024-05-24 17:24:42,708 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 17:24:42,712 INFO  [Log] Processing UPC - 197868700569 
+2024-05-24 17:24:42,713 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:43,040 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 17:24:43,694 INFO  [Log] Updated columns for id: 1917 
+2024-05-24 17:24:43,699 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:42 
+2024-05-24 17:24:44,399 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 17:24:44,403 INFO  [Log] Processing UPC - 729238216884 
+2024-05-24 17:24:44,404 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:44,720 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 17:24:45,446 INFO  [Log] Updated columns for id: 1918 
+2024-05-24 17:24:45,451 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:44 
+2024-05-24 17:24:46,167 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 17:24:46,174 INFO  [Log] Processing UPC - 197868727900 
+2024-05-24 17:24:46,174 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:46,499 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 17:24:47,140 INFO  [Log] Updated columns for id: 1919 
+2024-05-24 17:24:47,147 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:46 
+2024-05-24 17:24:47,780 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 17:24:47,784 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 17:24:47,784 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:48,293 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 17:24:49,280 INFO  [Log] Updated columns for id: 1920 
+2024-05-24 17:24:49,285 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:47 
+2024-05-24 17:24:49,976 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 17:24:49,981 INFO  [Log] Processing UPC - 197868702860 
+2024-05-24 17:24:49,981 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:50,321 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 17:24:50,972 INFO  [Log] Updated columns for id: 1921 
+2024-05-24 17:24:50,977 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:49 
+2024-05-24 17:24:51,690 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 17:24:51,693 INFO  [Log] Processing UPC - 194523213105 
+2024-05-24 17:24:51,694 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:52,072 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 17:24:52,732 INFO  [Log] Updated columns for id: 1922 
+2024-05-24 17:24:52,736 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:51 
+2024-05-24 17:24:53,382 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 17:24:53,386 INFO  [Log] Processing UPC - 197383414965 
+2024-05-24 17:24:53,387 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:53,720 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 17:24:54,392 INFO  [Log] Updated columns for id: 1923 
+2024-05-24 17:24:54,397 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:53 
+2024-05-24 17:24:55,063 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 17:24:55,070 INFO  [Log] Processing UPC - 729238217614 
+2024-05-24 17:24:55,070 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:55,388 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 17:24:56,055 INFO  [Log] Updated columns for id: 1924 
+2024-05-24 17:24:56,060 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:55 
+2024-05-24 17:24:56,721 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 17:24:56,724 INFO  [Log] Processing UPC - 627919258157 
+2024-05-24 17:24:56,725 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:57,062 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 17:24:57,699 INFO  [Log] Updated columns for id: 1925 
+2024-05-24 17:24:57,704 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:56 
+2024-05-24 17:24:58,406 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 17:24:58,410 INFO  [Log] Processing UPC - 197383415016 
+2024-05-24 17:24:58,410 INFO  [Log] Transaction postponed 
+2024-05-24 17:24:58,741 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 17:24:59,428 INFO  [Log] Updated columns for id: 1926 
+2024-05-24 17:24:59,433 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:54:58 
+2024-05-24 17:25:00,060 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 17:25:00,065 INFO  [Log] Processing UPC - 197868676345 
+2024-05-24 17:25:00,065 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:00,375 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 17:25:01,064 INFO  [Log] Updated columns for id: 1927 
+2024-05-24 17:25:01,071 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55 
+2024-05-24 17:25:01,734 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 17:25:01,739 INFO  [Log] Processing UPC - 197868678523 
+2024-05-24 17:25:01,739 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:03,608 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 17:25:05,230 INFO  [Log] Updated columns for id: 1928 
+2024-05-24 17:25:05,235 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:01 
+2024-05-24 17:25:05,883 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 17:25:05,888 INFO  [Log] Processing UPC - 5056305042059 
+2024-05-24 17:25:05,888 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:06,224 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 17:25:06,910 INFO  [Log] Updated columns for id: 1929 
+2024-05-24 17:25:06,914 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:05 
+2024-05-24 17:25:07,560 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 17:25:07,564 INFO  [Log] Processing UPC - 197868677311 
+2024-05-24 17:25:07,564 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:07,895 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 17:25:08,526 INFO  [Log] Updated columns for id: 1930 
+2024-05-24 17:25:08,538 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:07 
+2024-05-24 17:25:09,209 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 17:25:09,213 INFO  [Log] Processing UPC - 197868678400 
+2024-05-24 17:25:09,213 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:09,542 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 17:25:10,303 INFO  [Log] Updated columns for id: 1931 
+2024-05-24 17:25:10,310 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:09 
+2024-05-24 17:25:10,984 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 17:25:10,990 INFO  [Log] Processing UPC - 828432656899 
+2024-05-24 17:25:10,991 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:11,305 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 17:25:12,056 INFO  [Log] Updated columns for id: 1933 
+2024-05-24 17:25:12,062 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:10 
+2024-05-24 17:25:12,694 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 17:25:12,700 INFO  [Log] Processing UPC - 197868727818 
+2024-05-24 17:25:12,700 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:13,048 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 17:25:13,695 INFO  [Log] Updated columns for id: 1934 
+2024-05-24 17:25:13,701 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:12 
+2024-05-24 17:25:14,350 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 17:25:14,354 INFO  [Log] Processing UPC - 194145189529 
+2024-05-24 17:25:14,354 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:14,656 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 17:25:15,306 INFO  [Log] Updated columns for id: 1935 
+2024-05-24 17:25:15,310 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:14 
+2024-05-24 17:25:15,946 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 17:25:15,950 INFO  [Log] Processing UPC - 198110175661 
+2024-05-24 17:25:15,951 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:16,291 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 17:25:16,967 INFO  [Log] Updated columns for id: 1936 
+2024-05-24 17:25:16,972 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:15 
+2024-05-24 17:25:17,627 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 17:25:17,634 INFO  [Log] Processing UPC - 5715433876645 
+2024-05-24 17:25:17,634 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:17,980 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 17:25:18,612 INFO  [Log] Updated columns for id: 1937 
+2024-05-24 17:25:18,618 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:17 
+2024-05-24 17:25:19,296 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 17:25:19,300 INFO  [Log] Processing UPC - 197524226952 
+2024-05-24 17:25:19,301 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:19,668 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 17:25:20,299 INFO  [Log] Updated columns for id: 1938 
+2024-05-24 17:25:20,304 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:19 
+2024-05-24 17:25:21,006 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 17:25:21,013 INFO  [Log] Processing UPC - 194145419107 
+2024-05-24 17:25:21,013 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:21,336 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 17:25:22,088 INFO  [Log] Updated columns for id: 1939 
+2024-05-24 17:25:22,094 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:21 
+2024-05-24 17:25:23,182 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 17:25:23,189 INFO  [Log] Processing UPC - 197868673764 
+2024-05-24 17:25:23,190 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:24,121 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 17:25:25,692 INFO  [Log] Updated columns for id: 1940 
+2024-05-24 17:25:25,699 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:23 
+2024-05-24 17:25:26,378 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 17:25:26,382 INFO  [Log] Processing UPC - 627919213002 
+2024-05-24 17:25:26,382 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:26,701 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 17:25:27,381 INFO  [Log] Updated columns for id: 1941 
+2024-05-24 17:25:27,386 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:26 
+2024-05-24 17:25:28,046 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 17:25:28,053 INFO  [Log] Processing UPC - 197524226969 
+2024-05-24 17:25:28,053 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:28,382 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 17:25:29,048 INFO  [Log] Updated columns for id: 1942 
+2024-05-24 17:25:29,055 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:28 
+2024-05-24 17:25:29,730 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 17:25:29,734 INFO  [Log] Processing UPC - 5715610370447 
+2024-05-24 17:25:29,734 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:30,066 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 17:25:30,692 INFO  [Log] Updated columns for id: 1943 
+2024-05-24 17:25:30,699 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:29 
+2024-05-24 17:25:31,385 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 17:25:31,389 INFO  [Log] Processing UPC - 193238163903 
+2024-05-24 17:25:31,389 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:31,703 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 17:25:32,371 INFO  [Log] Updated columns for id: 1944 
+2024-05-24 17:25:32,375 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:31 
+2024-05-24 17:25:33,054 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 17:25:33,061 INFO  [Log] Processing UPC - 193624978876 
+2024-05-24 17:25:33,061 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:33,371 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 17:25:34,048 INFO  [Log] Updated columns for id: 1945 
+2024-05-24 17:25:34,056 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:33 
+2024-05-24 17:25:34,694 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 17:25:34,700 INFO  [Log] Processing UPC - 197868678097 
+2024-05-24 17:25:34,700 INFO  [Log] Transaction postponed 
+2024-05-24 17:25:35,051 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 17:25:35,743 INFO  [Log] Updated columns for id: 1946 
+2024-05-24 17:25:35,748 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T17:55:34 
+2024-05-24 17:25:36,372 INFO  [Log] Updated columns for id: 1947 
+2024-05-24 17:25:36,376 INFO  [Log] Processing UPC - 627919213934 
+2024-05-24 17:25:36,376 INFO  [Log] Transaction postponed 
+2024-05-24 18:15:05,488 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:15:05,489 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:15:05,489 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 18:15:05,490 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:15:05,490 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:15:05,494 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 18:15:05,494 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 18:15:10,498 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 18:15:53,368 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-24 18:18:09,242 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:18:09,243 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:18:09,244 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 18:18:09,244 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:18:09,244 INFO  [Log] **************************************************************************************** 
+2024-05-24 18:18:09,248 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 18:18:09,249 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 18:18:14,266 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 18:18:18,072 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 18:18:22,606 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:18:23,480 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 18:18:23,480 INFO  [Log] Transaction postponed 
+2024-05-24 18:18:24,216 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:18:24,826 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:18:24,835 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T18:48:23 
+2024-05-24 18:18:25,119 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:18:40,518 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:18:45,015 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T18:48:23 
+2024-05-24 18:18:46,941 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:19:41,928 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:20:17,316 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T18:48:23 
+2024-05-24 18:21:23,776 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:22:08,213 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:22:17,703 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T18:48:23 
+2024-05-24 18:22:57,756 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:23:06,353 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 18:23:12,134 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-24T18:48:23 
+2024-05-24 18:23:13,929 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 19:10:58,760 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:10:58,761 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:10:58,762 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 19:10:58,763 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:10:58,763 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:10:58,766 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 19:10:58,766 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 19:11:03,770 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 19:11:14,682 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 19:13:34,596 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:13:34,596 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:13:34,597 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-24 19:13:34,597 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:13:34,597 INFO  [Log] **************************************************************************************** 
+2024-05-24 19:13:34,601 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-24 19:13:34,601 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-24 19:13:39,606 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-24 19:13:41,739 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-24 19:16:24,612 INFO  [Log] Updated columns for id: 1896 
+2024-05-24 19:20:08,311 INFO  [Log] Processing UPC - 627919161952 
+2024-05-24 19:21:32,813 ERROR [Log] Unable to Copy the file due to - java.nio.file.NoSuchFileException: \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_24_2024\OO\DIVISION 62\627919161952_altA.jpg -> C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_24_2024\OO\DIVISION 62\627919161952_altA.jpg\627919161952_altA.jpg 
+2024-05-24 19:28:13,483 INFO  [Log] Transaction Successful 

@@ -2,10 +2,11 @@ package utility;
 
 public class Constant {
     public static final int MAX_RETRY = 2;
-    public static final String BOX_PATH = "C:\\Users\\H896753\\Box\\THE BAY VENDOR PROVIDED IMAGES";
+    public static final String DB_WORK_ITEM_TABLE_NAME = "RPADev.TheBay_DigOps_Metarename_Box.workitem";
+    public static final String BOX_SYNC_PERFORMER_QUEUE_NAME = "BoxSyncPerformer";
+    public static final String BOX_PATH = Util.HOME+"\\Box\\THE BAY VENDOR PROVIDED IMAGES";
     public static final String BOX_EXECUTABLEFILE_PATH = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Box Drive.lnk";
-    public static final String METARENAME_PATH = "C:\\Users\\H896753\\Documents\\Processed\\";
-    public static final String HOME = System.getProperty("user.home");
+    public static final String PROCESSED_FOLDER_PATH = "\\\\10.124.234.5\\FileServer\\File Server\\HB-Meta Rename\\Processed\\";
     public static final String BOXDRIVE_PATH = "\\Box\\THE BAY VENDOR PROVIDED IMAGES\\RPA Test Folder\\";
     public static final String SQL_JDBC_URL = "jdbc:sqlserver://thebay-rds-uipath-dev.cyeuvydpkw6m.us-east-1.rds.amazonaws.com:1433;databaseName=TheBayUipathOrchestratorDev;encrypt=true;trustServerCertificate=true";
     public static final String SQL_USER_NAME = "bayrpasqladmin";
