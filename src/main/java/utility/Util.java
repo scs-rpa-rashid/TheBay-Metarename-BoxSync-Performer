@@ -207,7 +207,7 @@ public class Util {
         } else {
             Files.createDirectories(destinationFile.getParentFile().toPath());
         }
-        FileUtil.copyFile(path.toString(),destinationFile.toString());
+        FileUtil.copyFile(path.toString(),destinationFile.getParentFile().toString());
     }
     public static Boolean checkDuplicates(Path path) {
         boolean boolVal = false;
