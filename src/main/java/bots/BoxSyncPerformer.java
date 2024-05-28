@@ -1,5 +1,6 @@
 package bots;
 
+import com.scs.exceptionutil.BusinessException;
 import com.scs.model.QueueItem;
 import com.scs.queueutils.QueueItemUtils;
 import utility.*;
@@ -69,7 +70,11 @@ public class BoxSyncPerformer {
             Log.info("No More transactions in the Queue to Process");
             /*Merge the duplicate images in Box folder*/
             Util.FolderMerger();
-        } catch (Exception e) {
+        }
+        catch (BusinessException be){
+            throw new BusinessException(be.getMessage());
+        }
+        catch (Exception e) {
             Util.updateDbStatusAndRetry(queueItem, intRetry, intId, strWorkItemId, strQueueName,e, strSpecificData, strState);
         }
     }

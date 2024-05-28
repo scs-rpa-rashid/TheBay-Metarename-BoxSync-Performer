@@ -2340,3 +2340,48 @@
 2024-05-27 17:33:54,394 INFO  [Log] Application launch triggered successfully. 
 2024-05-27 17:33:56,319 INFO  [Log] Waiting for the Box Drive Application launch to complete 
 2024-05-27 17:34:03,151 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:13:51,486 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:13:51,486 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:13:51,487 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 16:13:51,487 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:13:51,487 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:14:03,597 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 16:14:05,918 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 16:14:12,434 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:14:19,044 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-28 16:14:36,582 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:14:36,582 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:14:36,583 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 16:14:36,583 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:14:36,583 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:14:36,585 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 16:14:36,585 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 16:14:41,593 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:14:46,574 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-28 16:15:06,592 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:15:06,593 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:15:06,593 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 16:15:06,593 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:15:06,593 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:15:11,754 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 16:15:11,754 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 16:15:16,759 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:15:28,266 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-28 16:16:01,852 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:16:01,852 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:16:01,852 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 16:16:01,852 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:16:01,852 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:16:03,991 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 16:16:03,991 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 16:16:08,994 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:16:37,639 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-28 16:18:07,478 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:18:07,479 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:18:07,479 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 16:18:07,479 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:18:07,479 INFO  [Log] **************************************************************************************** 
+2024-05-28 16:18:07,481 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 16:18:07,481 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 16:18:12,494 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 16:18:16,996 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
