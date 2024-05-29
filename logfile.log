@@ -2548,3 +2548,121 @@
 2024-05-29 17:18:47,400 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altF.jpg 
 2024-05-29 17:18:49,485 INFO  [Log] Transaction Successful 
 2024-05-29 17:18:50,489 INFO  [Log] Updated columns for id: 1896 
+2024-05-29 18:08:38,723 INFO  [Log] **************************************************************************************** 
+2024-05-29 18:08:38,724 INFO  [Log] **************************************************************************************** 
+2024-05-29 18:08:38,725 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-29 18:08:38,725 INFO  [Log] **************************************************************************************** 
+2024-05-29 18:08:38,725 INFO  [Log] **************************************************************************************** 
+2024-05-29 18:08:38,728 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-29 18:08:38,728 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-29 18:08:43,732 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-29 18:08:47,869 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-29 18:10:15,123 INFO  [Log] Updated columns for id: 2121 
+2024-05-29 18:10:35,218 INFO  [Log] Processing UPC - 627919218984 
+2024-05-29 18:11:07,034 INFO  [Log] Transaction postponed 
+2024-05-29 18:11:54,925 INFO  [Log] Updated columns for id: 2121 
+2024-05-29 18:12:15,650 INFO  [Log] Updated columns for id: 2122 
+2024-05-29 18:14:13,145 INFO  [Log] Processing UPC - 197868708138 
+2024-05-29 18:14:17,909 INFO  [Log] Transaction postponed 
+2024-05-29 18:14:18,542 INFO  [Log] Updated columns for id: 2122 
+2024-05-29 18:14:41,385 INFO  [Log] Updated columns for id: 2124 
+2024-05-29 18:14:45,950 INFO  [Log] Processing UPC - 5050808338886 
+2024-05-29 18:15:04,610 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 55 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 55\5050808338886_altA.jpg 
+2024-05-29 18:15:57,544 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 55 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 55\5050808338886_altB.jpg 
+2024-05-29 18:16:06,470 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 55 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 55\5050808338886_altC.jpg 
+2024-05-29 18:16:13,158 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 55 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 55\5050808338886_altD.jpg 
+2024-05-29 18:16:20,040 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 55 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 55\5050808338886_altE.jpg 
+2024-05-29 18:17:09,731 INFO  [Log] Transaction Successful 
+2024-05-29 18:17:10,356 INFO  [Log] Updated columns for id: 2124 
+2024-05-29 18:29:07,733 INFO  [Log] Updated columns for id: 2125 
+2024-05-29 18:29:11,819 INFO  [Log] Processing UPC - 194145418735 
+2024-05-29 18:29:31,411 INFO  [Log] Transaction postponed 
+2024-05-29 18:29:32,754 INFO  [Log] Updated columns for id: 2125 
+2024-05-29 18:29:38,240 INFO  [Log] Updated columns for id: 2127 
+2024-05-29 18:29:40,928 INFO  [Log] Processing UPC - 15341806594 
+2024-05-29 18:29:49,274 INFO  [Log] Transaction postponed 
+2024-05-29 18:29:49,964 INFO  [Log] Updated columns for id: 2127 
+2024-05-29 18:29:51,841 INFO  [Log] Updated columns for id: 2128 
+2024-05-29 18:29:51,855 INFO  [Log] Processing UPC - 5715515951147 
+2024-05-29 18:30:06,163 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altA.jpg 
+2024-05-29 18:30:15,298 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altB.jpg 
+2024-05-29 18:30:25,161 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altC.png 
+2024-05-29 18:30:34,089 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altD.jpg 
+2024-05-29 18:30:42,463 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altE.jpg 
+2024-05-29 18:30:51,549 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 20 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 20\5715515951147_altF.jpg 
+2024-05-29 18:30:57,198 INFO  [Log] Transaction Successful 
+2024-05-29 18:30:57,933 INFO  [Log] Updated columns for id: 2128 
+2024-05-29 18:31:17,207 INFO  [Log] Updated columns for id: 2126 
+2024-05-29 18:31:26,354 INFO  [Log] Processing UPC - 627919214146 
+2024-05-29 18:31:27,334 INFO  [Log] Transaction postponed 
+2024-05-29 18:31:27,992 INFO  [Log] Updated columns for id: 2126 
+2024-05-29 18:31:29,779 INFO  [Log] Updated columns for id: 2130 
+2024-05-29 18:31:29,797 INFO  [Log] Processing UPC - 729238217751 
+2024-05-29 18:31:30,302 INFO  [Log] Transaction postponed 
+2024-05-29 18:31:30,959 INFO  [Log] Updated columns for id: 2130 
+2024-05-29 18:31:33,099 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:31:35,215 INFO  [Log] Processing UPC - 197868714252 
+2024-05-29 18:31:39,631 INFO  [Log] Transaction postponed 
+2024-05-29 18:31:40,289 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:31:53,101 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:31:54,745 INFO  [Log] Processing UPC - 197868714252 
+2024-05-29 18:31:58,483 INFO  [Log] Transaction postponed 
+2024-05-29 18:31:59,145 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:31:59,811 INFO  [Log] Updated columns for id: 2131 
+2024-05-29 18:32:01,122 INFO  [Log] Processing UPC - 198110175876 
+2024-05-29 18:32:02,370 INFO  [Log] Transaction postponed 
+2024-05-29 18:32:03,026 INFO  [Log] Updated columns for id: 2131 
+2024-05-29 18:32:03,695 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:32:05,463 INFO  [Log] Processing UPC - 197868714252 
+2024-05-29 18:32:06,035 INFO  [Log] Transaction postponed 
+2024-05-29 18:32:06,693 INFO  [Log] Updated columns for id: 2129 
+2024-05-29 18:32:07,368 INFO  [Log] Updated columns for id: 2132 
+2024-05-29 18:32:07,906 INFO  [Log] Processing UPC - 197868700545 
+2024-05-29 18:32:09,346 INFO  [Log] Transaction postponed 
+2024-05-29 18:32:10,007 INFO  [Log] Updated columns for id: 2132 
+2024-05-29 18:32:10,677 INFO  [Log] Updated columns for id: 2134 
+2024-05-29 18:32:11,806 INFO  [Log] Processing UPC - 197868727207 
+2024-05-29 18:32:12,637 INFO  [Log] Transaction postponed 
+2024-05-29 18:32:13,295 INFO  [Log] Updated columns for id: 2134 
+2024-05-29 18:32:13,984 INFO  [Log] Updated columns for id: 2136 
+2024-05-29 18:32:15,013 INFO  [Log] Processing UPC - 197868675157 
+2024-05-29 18:32:25,481 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868675157_altA.jpg 
+2024-05-29 18:32:33,282 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868675157_altB.jpg 
+2024-05-29 18:32:38,836 INFO  [Log] Transaction Successful 
+2024-05-29 18:32:39,513 INFO  [Log] Updated columns for id: 2136 
+2024-05-29 18:32:43,081 INFO  [Log] Updated columns for id: 2149 
+2024-05-29 18:32:47,658 INFO  [Log] Processing UPC - 197098087287 
+2024-05-29 18:32:55,990 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 22 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 22\197098087287_altA.jpg 
+2024-05-29 18:33:04,112 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 22 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 22\197098087287_altB.jpg 
+2024-05-29 18:33:12,891 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 22 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 22\197098087287_altC.jpg 
+2024-05-29 18:33:21,602 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 22 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 22\197098087287_altD.jpg 
+2024-05-29 18:34:52,930 INFO  [Log] Transaction Successful 
+2024-05-29 18:34:53,626 INFO  [Log] Updated columns for id: 2149 
+2024-05-29 18:35:03,142 INFO  [Log] Updated columns for id: 2151 
+2024-05-29 18:35:21,857 INFO  [Log] Processing UPC - 55847107498 
+2024-05-29 18:35:43,346 INFO  [Log] Transaction postponed 
+2024-05-29 18:35:44,038 INFO  [Log] Updated columns for id: 2151 
+2024-05-29 18:35:44,744 INFO  [Log] Updated columns for id: 2151 
+2024-05-29 18:36:03,168 INFO  [Log] Processing UPC - 55847107498 
+2024-05-29 18:36:05,312 INFO  [Log] Transaction postponed 
+2024-05-29 18:36:06,154 INFO  [Log] Updated columns for id: 2151 
+2024-05-29 18:36:06,922 INFO  [Log] Updated columns for id: 2169 
+2024-05-29 18:36:08,491 INFO  [Log] Processing UPC - 197868677311 
+2024-05-29 18:36:18,837 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868677311_altA.jpg 
+2024-05-29 18:36:26,356 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868677311_altB.jpg 
+2024-05-29 18:36:28,405 INFO  [Log] Transaction Successful 
+2024-05-29 18:36:29,121 INFO  [Log] Updated columns for id: 2169 
+2024-05-29 18:36:32,847 INFO  [Log] Updated columns for id: 2179 
+2024-05-29 18:36:35,392 INFO  [Log] Processing UPC - 197868673764 
+2024-05-29 18:36:43,297 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868673764_altA.jpg 
+2024-05-29 18:36:51,972 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868673764_altB.jpg 
+2024-05-29 18:36:54,802 INFO  [Log] Transaction Successful 
+2024-05-29 18:36:55,499 INFO  [Log] Updated columns for id: 2179 
+2024-05-29 18:36:59,390 INFO  [Log] Updated columns for id: 2183 
+2024-05-29 18:37:03,178 INFO  [Log] Processing UPC - 197868678097 
+2024-05-29 18:37:10,648 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868678097_altA.jpg 
+2024-05-29 18:37:18,437 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\Division 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\Division 25\197868678097_altB.jpg 
+2024-05-29 18:37:28,729 INFO  [Log] Transaction Successful 
+2024-05-29 18:37:29,506 INFO  [Log] Updated columns for id: 2183 
+2024-05-29 18:37:33,308 INFO  [Log] Updated columns for id: 2185 
+2024-05-29 18:37:33,323 INFO  [Log] Processing UPC - 68459311320 

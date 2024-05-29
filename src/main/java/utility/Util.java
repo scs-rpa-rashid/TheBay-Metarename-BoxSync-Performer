@@ -118,6 +118,7 @@ public class Util {
         InputDataModel inputDataModel = new InputDataModel();
         String strUpc = inputDataModel.getStrUPC();
         Log.info("Processing UPC - " + strUpc);
+        System.out.println("Processing UPC - " + strUpc);
         int counterCopied = 0;
         String strStatus = null;
         List<String> lstNewFileNames = new ArrayList<>();
