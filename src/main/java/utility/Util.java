@@ -306,10 +306,19 @@ public class Util {
     public static String postponeTime() {
         String currentDateTimeString = DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss");
         try {
+            // Parse the current date-time string to LocalDateTime
             LocalDateTime parsedDateTime = LocalDateTime.parse(currentDateTimeString, DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss"));
-            ZonedDateTime parsedDateTimeIST = parsedDateTime.atZone(ZoneId.of("Asia/Kolkata"));
+
+            // Assume the current date-time string is in the system's default time zone
+            ZonedDateTime parsedDateTimeWithZone = parsedDateTime.atZone(ZoneId.systemDefault());
+
+            // Convert the parsed date-time to IST
+            ZonedDateTime parsedDateTimeIST = parsedDateTimeWithZone.withZoneSameInstant(ZoneId.of("Asia/Kolkata"));
+
+            // Postpone the time by the specified minutes
             ZonedDateTime postponedDateTime = parsedDateTimeIST.withNano(0).plusMinutes(Constant.POSTPONE_MINUTES);
-           // LocalDateTime postponedDateTime = parsedDateTime.withNano(0).plusMinutes(Constant.POSTPONE_MINUTES);
+
+            // Format the postponed date-time to the desired format
             return postponedDateTime.format(DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss"));
         } catch (DateTimeParseException e) {
             System.err.println("Parsing error: " + e.getMessage());
