@@ -49,12 +49,12 @@ public class BoxSyncPerformer {
                     Util.setSpecificDataToPojo(strSpecificData);
                     /*Output column in SQL Contains the Postpone data,
                      * below logic is to check if the Transaction is within the postpone time*/
-                    boolean skipTransaction = Util.checkIfTransactionPostponed(strOutput, strCreateTimestamp, intId);
-                    if (skipTransaction) {
-                        /*Skip this transaction if the QueueItem is either Postponed or marked as Failed*/
-                        queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of("New"),intId);
-                        continue;
-                    }
+          /*  boolean skipTransaction = Util.checkIfTransactionPostponed(strOutput, strCreateTimestamp, intId);
+            if (skipTransaction) {
+                *//*Skip this transaction if the QueueItem is either Postponed or marked as Failed*//*
+                queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of("New"),intId);
+                continue;
+            }*/
                     /*Copy Images to Box if present in processed folder , mark status as successful,
                      * Postpone the transaction if no Images are available in processed folder
                      * Fail the transaction if postpone is exceeded for 6 days*/

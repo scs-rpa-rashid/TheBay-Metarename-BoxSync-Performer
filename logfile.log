@@ -2517,3 +2517,34 @@
 2024-05-29 16:27:45,466 INFO  [Log] Waiting for the Box Drive Application launch to complete 
 2024-05-29 16:27:50,482 INFO  [Log] Box Drive Application Launched Successfully 
 2024-05-29 16:27:54,350 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-29 17:12:22,791 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:12:22,792 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:12:22,792 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-29 17:12:22,793 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:12:22,793 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:12:22,794 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-29 17:12:22,794 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-29 17:12:27,796 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-29 17:12:31,680 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-29 17:14:04,765 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-29 17:14:04,765 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-29 17:14:04,769 INFO  [Log] Not Retrying as the Queue Item is not yet Fetched 
+2024-05-29 17:15:23,953 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:15:23,953 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:15:23,953 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-29 17:15:23,953 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:15:23,953 INFO  [Log] **************************************************************************************** 
+2024-05-29 17:15:23,954 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-29 17:15:23,954 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-29 17:15:28,955 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-29 17:15:29,842 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-29 17:17:10,024 INFO  [Log] Updated columns for id: 1896 
+2024-05-29 17:17:29,073 INFO  [Log] Processing UPC - 627919161952 
+2024-05-29 17:17:46,336 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altA.jpg 
+2024-05-29 17:18:08,662 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altB.png 
+2024-05-29 17:18:21,430 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altC.jpg 
+2024-05-29 17:18:30,369 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altD.jpg 
+2024-05-29 17:18:39,474 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altE.jpg 
+2024-05-29 17:18:47,400 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_29_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_29_2024\OO\DIVISION 62\627919161952_altF.jpg 
+2024-05-29 17:18:49,485 INFO  [Log] Transaction Successful 
+2024-05-29 17:18:50,489 INFO  [Log] Updated columns for id: 1896 
