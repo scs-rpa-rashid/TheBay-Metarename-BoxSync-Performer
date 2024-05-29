@@ -10,6 +10,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.*;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.*;
@@ -52,7 +54,7 @@ public class Util {
             e.printStackTrace();
         }
     }
-    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String queueName, String specificData,String upc,List<String> lstNewFileNames) throws ApplicationException {
+    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String specificData,String upc,List<String> lstNewFileNames) throws ApplicationException {
         if (counterCopied>0){
             System.out.println("Transaction Successful");
             Log.info("Transaction Successful");
@@ -112,7 +114,7 @@ public class Util {
     }
 
     public static void copyImagesAndUpdateStatus(List<Path> lstAllFilesInProcessedFolder,int intId,
-            String strWorkItemId, String strQueueName, String strSpecificData) throws ApplicationException {
+            String strWorkItemId,String strSpecificData) throws ApplicationException {
         InputDataModel inputDataModel = new InputDataModel();
         String strUpc = inputDataModel.getStrUPC();
         Log.info("Processing UPC - " + strUpc);
@@ -138,7 +140,7 @@ public class Util {
         }
         /*If any Image is copied , Update the status accordingly
          * Store the Count of number of images processed in "Comment column"*/
-        Util.updateTransactionStatus(counterCopied, strStatus, intId, strWorkItemId, strQueueName, strSpecificData, strUpc,lstNewFileNames);
+        Util.updateTransactionStatus(counterCopied, strStatus, intId, strWorkItemId, strSpecificData, strUpc,lstNewFileNames);
     }
     public static final String HOME = System.getProperty("user.home");
     public static void StartLog() {
@@ -206,8 +208,9 @@ public class Util {
         String fromDatePath = path.toString().substring(indexOfProcessed + 9);
         String boxPath = HOME + Constant.BOXDRIVE_PATH + formattedCurrentDate + "_HB_VPI\\" + fromDatePath;
         File destinationFile = new File(boxPath);
-        if (destinationFile.exists()) {
-            System.out.println(destinationFile + " already exists.");
+        /*If Destination folder does not exist - create*/
+        if (destinationFile.getParentFile().exists()) {
+            System.out.println(destinationFile.getParentFile() + " already exists.");
         } else {
             Files.createDirectories(destinationFile.getParentFile().toPath());
         }
@@ -299,15 +302,13 @@ public class Util {
         });
         return files;
     }
-    /*public static LocalDateTime postponeTime (){
-        return LocalDateTime.parse(DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss")).
-                plusMinutes(Constant.POSTPONE_MINUTES);
-    }*/
     public static String postponeTime() {
         String currentDateTimeString = DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss");
         try {
             LocalDateTime parsedDateTime = LocalDateTime.parse(currentDateTimeString, DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss"));
-            LocalDateTime postponedDateTime = parsedDateTime.withNano(0).plusMinutes(Constant.POSTPONE_MINUTES);
+            ZonedDateTime parsedDateTimeIST = parsedDateTime.atZone(ZoneId.of("Asia/Kolkata"));
+            ZonedDateTime postponedDateTime = parsedDateTimeIST.withNano(0).plusMinutes(Constant.POSTPONE_MINUTES);
+           // LocalDateTime postponedDateTime = parsedDateTime.withNano(0).plusMinutes(Constant.POSTPONE_MINUTES);
             return postponedDateTime.format(DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss"));
         } catch (DateTimeParseException e) {
             System.err.println("Parsing error: " + e.getMessage());
@@ -315,7 +316,7 @@ public class Util {
         }
     }
 
-    public static void updateDbStatusAndRetry(QueueItem queueItem, int retry, int id, String workitemId, String queueName, Exception e, String specificData, String state) throws Exception {
+    public static void updateDbStatusAndRetry(QueueItem queueItem, int retry, int id, String workitemId, Exception e, String specificData, String state) throws Exception {
         if (queueItem.getDetail()!= null) {
             if (retry < Constant.MAX_RETRY) {
                 System.out.println("Transaction Retried");

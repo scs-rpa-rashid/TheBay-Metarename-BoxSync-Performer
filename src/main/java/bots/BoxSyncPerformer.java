@@ -52,14 +52,14 @@ public class BoxSyncPerformer {
                     boolean skipTransaction = Util.checkIfTransactionPostponed(strOutput, strCreateTimestamp, intId);
                     if (skipTransaction) {
                         /*Skip this transaction if the QueueItem is either Postponed or marked as Failed*/
-                        //queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of("New"),intId);
+                        queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of("New"),intId);
                         continue;
                     }
                     /*Copy Images to Box if present in processed folder , mark status as successful,
                      * Postpone the transaction if no Images are available in processed folder
                      * Fail the transaction if postpone is exceeded for 6 days*/
                     Util.copyImagesAndUpdateStatus(lstAllFilesInProcessedFolder,intId
-                            , strWorkItemId, strQueueName, strSpecificData);
+                            , strWorkItemId, strSpecificData);
                 }else{
                     queueItemPresent =false;
                     System.out.println("No More transactions in the Queue to Process");
@@ -75,7 +75,7 @@ public class BoxSyncPerformer {
             throw new BusinessException(be.getMessage());
         }
         catch (Exception e) {
-            Util.updateDbStatusAndRetry(queueItem, intRetry, intId, strWorkItemId, strQueueName,e, strSpecificData, strState);
+            Util.updateDbStatusAndRetry(queueItem, intRetry, intId, strWorkItemId,e, strSpecificData, strState);
         }
     }
     public static void main(String[] args) throws Exception {

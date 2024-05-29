@@ -2385,3 +2385,135 @@
 2024-05-28 16:18:07,481 INFO  [Log] Waiting for the Box Drive Application launch to complete 
 2024-05-28 16:18:12,494 INFO  [Log] Box Drive Application Launched Successfully 
 2024-05-28 16:18:16,996 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-05-28 17:29:33,677 INFO  [Log] **************************************************************************************** 
+2024-05-28 17:29:33,677 INFO  [Log] **************************************************************************************** 
+2024-05-28 17:29:33,678 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 17:29:33,678 INFO  [Log] **************************************************************************************** 
+2024-05-28 17:29:33,678 INFO  [Log] **************************************************************************************** 
+2024-05-28 17:29:33,678 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 17:29:33,678 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 17:29:38,679 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 17:29:44,345 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 17:30:50,235 INFO  [Log] Updated columns for id: 3230 
+2024-05-28 17:30:50,395 INFO  [Log] Processing UPC - 195981435177 
+2024-05-28 17:30:50,396 INFO  [Log] Transaction postponed 
+2024-05-28 17:30:51,230 INFO  [Log] Updated columns for id: 3230 
+2024-05-28 17:30:53,392 INFO  [Log] Updated columns for id: 3230 
+2024-05-28 17:30:53,397 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:00:50 
+2024-05-28 17:30:55,802 INFO  [Log] Updated columns for id: 3231 
+2024-05-28 17:30:55,804 INFO  [Log] Processing UPC - 8447018079819 
+2024-05-28 17:30:55,805 INFO  [Log] Transaction postponed 
+2024-05-28 17:30:56,570 INFO  [Log] Updated columns for id: 3231 
+2024-05-28 17:30:57,984 INFO  [Log] Updated columns for id: 3231 
+2024-05-28 17:30:57,987 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:00:55 
+2024-05-28 17:31:00,071 INFO  [Log] Updated columns for id: 3232 
+2024-05-28 17:31:00,074 INFO  [Log] Processing UPC - 688296509089 
+2024-05-28 17:31:00,075 INFO  [Log] Transaction postponed 
+2024-05-28 17:31:01,772 INFO  [Log] Updated columns for id: 3232 
+2024-05-28 17:31:03,551 INFO  [Log] Updated columns for id: 3232 
+2024-05-28 17:31:03,553 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:01 
+2024-05-28 17:31:05,511 INFO  [Log] Updated columns for id: 3233 
+2024-05-28 17:31:05,512 INFO  [Log] Processing UPC - 5715428997737 
+2024-05-28 17:31:05,513 INFO  [Log] Transaction postponed 
+2024-05-28 17:31:06,377 INFO  [Log] Updated columns for id: 3233 
+2024-05-28 17:31:08,109 INFO  [Log] Updated columns for id: 3233 
+2024-05-28 17:31:08,111 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:01:05 
+2024-05-28 17:31:34,068 INFO  [Log] Updated columns for id: 3234 
+2024-05-28 17:31:34,069 INFO  [Log] Processing UPC - 688296511976 
+2024-05-28 17:31:34,069 INFO  [Log] Transaction postponed 
+2024-05-28 17:31:35,211 INFO  [Log] Updated columns for id: 3234 
+2024-05-28 17:31:37,209 INFO  [Log] Updated columns for id: 3234 
+2024-05-28 17:31:37,210 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:01:34 
+2024-05-28 17:31:38,443 INFO  [Log] Updated columns for id: 3235 
+2024-05-28 17:31:38,445 INFO  [Log] Processing UPC - 195981210439 
+2024-05-28 17:31:38,445 INFO  [Log] Transaction postponed 
+2024-05-28 17:31:38,948 INFO  [Log] Updated columns for id: 3235 
+2024-05-28 17:31:41,024 INFO  [Log] Updated columns for id: 3235 
+2024-05-28 17:31:41,025 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:01:38 
+2024-05-28 17:31:42,912 INFO  [Log] Updated columns for id: 3236 
+2024-05-28 17:31:42,913 INFO  [Log] Processing UPC - 195981308181 
+2024-05-28 17:31:42,914 INFO  [Log] Transaction postponed 
+2024-05-28 17:31:48,900 INFO  [Log] Updated columns for id: 3236 
+2024-05-28 17:31:54,369 INFO  [Log] Updated columns for id: 3236 
+2024-05-28 17:31:54,371 INFO  [Log] Not processing this Transaction as it's postponed ,postponed until - 2024-05-28T18:01:42 
+2024-05-28 17:31:57,138 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-28 17:31:57,138 INFO  [Log] No More transactions in the Queue to Process 
+2024-05-28 18:07:18,239 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:07:18,239 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:07:18,240 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:07:18,240 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:07:18,240 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:07:24,331 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:07:24,331 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:07:29,345 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:07:35,794 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:08:50,726 ERROR [Log] Failure while getting queue item for queue BoxSyncPerformer due to: The value is not set for the parameter number 1. 
+2024-05-28 18:09:58,088 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:09:58,088 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:09:58,089 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:09:58,089 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:09:58,089 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:09:58,089 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:09:58,089 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:10:03,101 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:10:04,148 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:11:11,605 ERROR [Log] Failure while getting queue item for queue BoxSyncPerformer due to: The value is not set for the parameter number 1. 
+2024-05-28 18:12:42,254 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:12:42,255 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:12:42,255 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:12:42,255 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:12:42,255 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:12:42,256 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:12:42,256 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:12:47,264 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:12:54,749 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:16:59,448 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:16:59,448 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:16:59,449 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:16:59,449 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:16:59,449 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:16:59,449 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:16:59,449 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:17:04,458 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:17:10,437 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:19:10,475 INFO  [Log] Updated columns for id: 1896 
+2024-05-28 18:20:53,543 INFO  [Log] Processing UPC - 627919161952 
+2024-05-28 18:35:02,065 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:35:02,065 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:35:02,065 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:35:02,065 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:35:02,065 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:35:02,066 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:35:02,066 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:35:07,067 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:35:14,918 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:37:36,476 INFO  [Log] Updated columns for id: 1896 
+2024-05-28 18:37:54,112 INFO  [Log] Processing UPC - 627919161952 
+2024-05-28 18:49:28,196 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:49:28,197 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:49:28,197 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-28 18:49:28,197 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:49:28,197 INFO  [Log] **************************************************************************************** 
+2024-05-28 18:49:28,198 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-28 18:49:28,199 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-28 18:49:33,212 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-28 18:49:47,117 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-28 18:52:20,733 INFO  [Log] Updated columns for id: 1896 
+2024-05-28 18:52:32,883 INFO  [Log] Processing UPC - 627919161952 
+2024-05-28 18:55:53,753 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altA.jpg 
+2024-05-28 18:57:27,274 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altB.png 
+2024-05-28 18:58:07,187 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altC.jpg 
+2024-05-28 18:58:33,393 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altD.jpg 
+2024-05-28 18:59:07,961 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altE.jpg 
+2024-05-28 18:59:33,191 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\5_May_2024_HB_VPI\May_28_2024\OO\DIVISION 62 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\May_28_2024\OO\DIVISION 62\627919161952_altF.jpg 
+2024-05-28 18:59:39,770 INFO  [Log] Transaction Successful 
+2024-05-28 18:59:41,997 INFO  [Log] Updated columns for id: 1896 
+2024-05-29 16:27:45,460 INFO  [Log] **************************************************************************************** 
+2024-05-29 16:27:45,462 INFO  [Log] **************************************************************************************** 
+2024-05-29 16:27:45,463 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-29 16:27:45,463 INFO  [Log] **************************************************************************************** 
+2024-05-29 16:27:45,463 INFO  [Log] **************************************************************************************** 
+2024-05-29 16:27:45,465 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-29 16:27:45,466 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-29 16:27:50,482 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-29 16:27:54,350 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
