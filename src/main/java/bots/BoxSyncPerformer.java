@@ -19,6 +19,7 @@ public class BoxSyncPerformer {
     Boolean queueItemPresent;
     QueueItem queueItem;
     QueueItemUtils queueItemUtils;
+    boolean skipTransaction;
     public void run() throws Exception {
         try{
             queueItemPresent = true;
@@ -47,14 +48,11 @@ public class BoxSyncPerformer {
                      /*Deserialize the Specific data values from Database
                      Set each values to Pojo Setters */
                     Util.setSpecificDataToPojo(strSpecificData);
-                    /*Output column in SQL Contains the Postpone data,
-                     * below logic is to check if the Transaction is within the postpone time*/
-          /*  boolean skipTransaction = Util.checkIfTransactionPostponed(strOutput, strCreateTimestamp, intId);
-            if (skipTransaction) {
-                *//*Skip this transaction if the QueueItem is either Postponed or marked as Failed*//*
-                queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of("New"),intId);
-                continue;
-            }*/
+                    /*below logic is to check if the Transaction has exceeded the postpone limit*/
+                    skipTransaction = Util.checkIfTransactionPostponed(strCreateTimestamp, intId);
+                    if (skipTransaction) {
+                        continue;
+                    }
                     /*Copy Images to Box if present in processed folder , mark status as successful,
                      * Postpone the transaction if no Images are available in processed folder
                      * Fail the transaction if postpone is exceeded for 6 days*/
@@ -70,6 +68,9 @@ public class BoxSyncPerformer {
             Log.info("No More transactions in the Queue to Process");
             /*Merge the duplicate images in Box folder*/
             Util.FolderMerger();
+            /*Wait for all the files to be Synced*/
+            System.out.println("Waiting for the files to complete the Sync");
+            Thread.sleep(300000);
         }
         catch (BusinessException be){
             throw new BusinessException(be.getMessage());

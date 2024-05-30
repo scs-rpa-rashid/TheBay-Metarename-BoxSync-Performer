@@ -2666,3 +2666,68 @@
 2024-05-29 18:37:29,506 INFO  [Log] Updated columns for id: 2183 
 2024-05-29 18:37:33,308 INFO  [Log] Updated columns for id: 2185 
 2024-05-29 18:37:33,323 INFO  [Log] Processing UPC - 68459311320 
+2024-05-30 16:53:53,972 INFO  [Log] **************************************************************************************** 
+2024-05-30 16:53:53,974 INFO  [Log] **************************************************************************************** 
+2024-05-30 16:53:53,975 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-30 16:53:53,975 INFO  [Log] **************************************************************************************** 
+2024-05-30 16:53:53,975 INFO  [Log] **************************************************************************************** 
+2024-05-30 16:53:53,977 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-30 16:53:53,977 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-30 16:53:58,980 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-30 16:54:21,254 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-30 16:54:26,555 INFO  [Log] Updated columns for id: 2121 
+2024-05-30 16:56:19,603 INFO  [Log] Processing UPC - 627919218984 
+2024-05-30 16:57:28,677 INFO  [Log] Transaction postponed 
+2024-05-30 16:58:02,669 ERROR [Log] Failure while updating data to queue item: HikariPool-1 - Connection is not available, request timed out after 30200ms. 
+2024-05-30 16:59:23,241 INFO  [Log] Transaction Retried 
+2024-05-30 16:59:53,820 ERROR [Log] Failure while updating data to queue item: HikariPool-1 - Connection is not available, request timed out after 30010ms. 
+2024-05-30 17:02:32,488 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:02:32,488 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:02:32,489 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-30 17:02:32,489 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:02:32,489 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:02:32,491 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-30 17:02:32,491 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-30 17:02:37,505 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-30 17:02:40,135 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-30 17:02:41,796 INFO  [Log] Updated columns for id: 2121 
+2024-05-30 17:03:18,630 INFO  [Log] Processing UPC - 627919218984 
+2024-05-30 17:03:54,583 INFO  [Log] Transaction postponed 
+2024-05-30 17:03:55,717 INFO  [Log] Updated columns for id: 2121 
+2024-05-30 17:04:35,130 INFO  [Log] Updated columns for id: 2122 
+2024-05-30 17:04:45,864 INFO  [Log] Processing UPC - 197868708138 
+2024-05-30 17:04:47,264 INFO  [Log] Transaction postponed 
+2024-05-30 17:04:47,842 INFO  [Log] Updated columns for id: 2122 
+2024-05-30 17:04:49,906 INFO  [Log] Updated columns for id: 2125 
+2024-05-30 17:04:50,507 INFO  [Log] Processing UPC - 194145418735 
+2024-05-30 17:04:51,366 INFO  [Log] Transaction postponed 
+2024-05-30 17:04:51,954 INFO  [Log] Updated columns for id: 2125 
+2024-05-30 17:04:53,642 INFO  [Log] Updated columns for id: 2126 
+2024-05-30 17:05:09,113 INFO  [Log] Processing UPC - 627919214146 
+2024-05-30 17:05:12,428 INFO  [Log] Transaction postponed 
+2024-05-30 17:05:13,257 INFO  [Log] Updated columns for id: 2126 
+2024-05-30 17:07:52,775 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:07:52,776 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:07:52,776 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-30 17:07:52,776 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:07:52,776 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:07:52,778 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-30 17:07:52,778 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-30 17:07:57,788 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-30 17:08:00,343 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-30 17:08:01,857 INFO  [Log] Updated columns for id: 2127 
+2024-05-30 17:09:59,494 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:09:59,495 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:09:59,495 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-30 17:09:59,495 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:09:59,495 INFO  [Log] **************************************************************************************** 
+2024-05-30 17:09:59,497 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-05-30 17:09:59,497 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-30 17:10:04,507 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-30 17:10:05,703 INFO  [Log] Current date folder exists in Processed folder 
+2024-05-30 17:10:06,672 INFO  [Log] Updated columns for id: 2127 
+2024-05-30 17:11:06,079 INFO  [Log] Business Exception - Failing this Transaction as it has exceeded the Threshold ,postpone Limit - 2024-05-29T16:10:48 current time - 2024-05-30T17:10:30 
+2024-05-30 17:11:08,611 INFO  [Log] Updated columns for id: 2127 
+2024-05-30 17:11:54,615 INFO  [Log] Updated columns for id: 2129 
+2024-05-30 17:12:01,884 INFO  [Log] Transaction postponed 
+2024-05-30 17:12:02,472 INFO  [Log] Updated columns for id: 2129 

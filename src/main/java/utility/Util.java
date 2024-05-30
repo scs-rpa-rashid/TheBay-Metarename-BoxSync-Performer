@@ -70,55 +70,37 @@ public class Util {
             /*Images not processed , Postpone the Transaction by 30 minutes*/
             System.out.println("Transaction postponed");
             Log.info("Transaction postponed");
-            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","output"),List.of("New",Util.postponeTime()),id);
+            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","postpone"),List.of("New",Util.postponeTime()),id);
         }
     }
-    public static boolean checkIfTransactionPostponed(String strOutput, String strCreateTimestamp, int intId) throws ApplicationException {
+    public static boolean checkIfTransactionPostponed(String strCreateTimestamp, int intId) throws ApplicationException {
         System.out.println("Processing Transaction - "+InputDataModel.strUPC);
+        /*Eliminate milliseconds from create time stamp*/
         int lastDotIndex = strCreateTimestamp.lastIndexOf(".");
         strCreateTimestamp = strCreateTimestamp.substring(0,lastDotIndex);
         boolean skipTheLoop = false;
-        if (strOutput != null) {
-            DateTimeFormatter finalFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-            //DateTimeFormatter inputFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss.SSS");
-            LocalDateTime existingPostponeVal = LocalDateTime.parse(strOutput, finalFormatter);
-            LocalDateTime currentTimeVal = LocalDateTime.parse(DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss"),DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss"));
-            LocalDateTime formattedCreatedTime = LocalDateTime.parse(strCreateTimestamp,finalFormatter);
-            String strCreatedTime = formattedCreatedTime.format(finalFormatter);
-            LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
-            /*If the compareResult is >0 , it implies that the postponed time is greater
-             * than the current time , and hence this transaction will be skipped
-             * If current time > postpone time then the transaction will be picked*/
-            if (currentTimeVal.isBefore(existingPostponeVal)){
-                System.out.println("Not processing this Transaction as it's postponed ," +
-                        "postponed until - "+existingPostponeVal+" current time - "+currentTimeVal);
-                Log.info("Not processing this Transaction as it's postponed ," +
-                        "postponed until - "+existingPostponeVal);
-                /*continue;*/
-                skipTheLoop = true;
-            }
-            /*Transaction will be failed if the Postpone is exceeding 6 days
-             * Hence the below Transaction creation time + 6 days
-             * to check if the current time exceeded the Postpone Limit*/
-            LocalDateTime postponeLimit = finalCreatedTime.plusDays(6);
-            if (currentTimeVal.isAfter(postponeLimit)) {
-                String reason = "Business Exception - Failing this Transaction as it has exceeded the Threshold ," +
-                        "postpone Limit - "+postponeLimit+" current time - "+currentTimeVal;
-                System.out.println(reason);
-                Log.info(reason);
-                queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of("Failed",reason),intId);
-                skipTheLoop = true;
-            }
+        DateTimeFormatter finalFormatter = DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss");
+        LocalDateTime currentTimeVal = LocalDateTime.parse(DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss"),finalFormatter);
+        LocalDateTime formattedCreatedTime = LocalDateTime.parse(strCreateTimestamp,finalFormatter);
+        String strCreatedTime = formattedCreatedTime.format(finalFormatter);
+        LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
+        /*Transaction will be failed if the Postpone is exceeding 6 days
+         * Hence the below Transaction creation time + 6 days
+         * to check if the current time exceeded the Postpone Limit*/
+        LocalDateTime postponeLimit = finalCreatedTime.plusDays(6);
+        if (currentTimeVal.isAfter(postponeLimit)) {
+            String reason = "Business Exception - Failing this Transaction as it has exceeded the Threshold ," +
+                    "postpone Limit - "+postponeLimit+" current time - "+currentTimeVal;
+            System.out.println(reason);
+            Log.info(reason);
+            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of("Failed",reason),intId);
+            skipTheLoop = true;
         }
         return skipTheLoop;
     }
-
     public static void copyImagesAndUpdateStatus(List<Path> lstAllFilesInProcessedFolder,int intId,
-            String strWorkItemId,String strSpecificData) throws ApplicationException {
-        InputDataModel inputDataModel = new InputDataModel();
-        String strUpc = inputDataModel.getStrUPC();
-        Log.info("Processing UPC - " + strUpc);
-        System.out.println("Processing UPC - " + strUpc);
+                                                 String strWorkItemId,String strSpecificData) throws ApplicationException {
+        String strUpc = InputDataModel.strUPC;
         int counterCopied = 0;
         String strStatus = null;
         List<String> lstNewFileNames = new ArrayList<>();
@@ -132,7 +114,7 @@ public class Util {
                     counterCopied = counterCopied+1;
                     Util.copyFileToBox(path);
                     lstNewFileNames.add(path.getFileName().toString());
-                    strStatus = "Success";
+                    strStatus = "Successful";
                 } catch (Exception e) {
                     strStatus = "Failed";
                     break;
@@ -162,7 +144,7 @@ public class Util {
                 Desktop.getDesktop().open(exeFile);
                 //Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
                 /*wait for launch to complete*/
-               // process.waitFor();
+                // process.waitFor();
                 Log.info("Application launch triggered successfully.");
                 System.out.println("Application launch triggered successfully.");
             } else {
@@ -182,7 +164,7 @@ public class Util {
         }
     }
     public static List<Path> fetchAllFilesInProcessedFolder() throws BusinessException, ApplicationException {
-        List<Path> fileList = null;
+        List<Path> fileList;
         String formattedCurrentDate = DateUtil.currentDateTime("MMMM_d_yyyy");
         File currentDatePath = new File(Constant.PROCESSED_FOLDER_PATH + formattedCurrentDate);
         if (currentDatePath.exists()) {
@@ -210,9 +192,8 @@ public class Util {
         String boxPath = HOME + Constant.BOXDRIVE_PATH + formattedCurrentDate + "_HB_VPI\\" + fromDatePath;
         File destinationFile = new File(boxPath);
         /*If Destination folder does not exist - create*/
-        if (destinationFile.getParentFile().exists()) {
-            System.out.println(destinationFile.getParentFile() + " already exists.");
-        } else {
+        if (!destinationFile.getParentFile().exists()) {
+            System.out.println(destinationFile.getParentFile() + " does not exists , creating the file");
             Files.createDirectories(destinationFile.getParentFile().toPath());
         }
         FileUtil.copyFile(path.toString(),destinationFile.getParentFile().toString());
@@ -249,6 +230,7 @@ public class Util {
         }
     }
     public static void FolderMerger() throws Exception {
+        try {
         String formattedMonthDate = DateUtil.currentDateTime("M_MMMM_yyyy");
         String formattedCurrDate = DateUtil.currentDateTime("MMMM_d_yyyy");
         String boxPath = HOME + Constant.BOXDRIVE_PATH + formattedMonthDate + "_HB_VPI\\" + formattedCurrDate;
@@ -270,7 +252,7 @@ public class Util {
                 Path duplicateFolder = Paths.get(division.toUri());
                 int indexOfDot = division.toString().indexOf("(");
                 Path originalFolder = Paths.get(division.toString().substring(0,indexOfDot));
-                try {
+
                     // Check if the original folder exists
                     if (!Files.exists(originalFolder)) {
                         System.out.println("Original folder does not exist.");
@@ -284,12 +266,11 @@ public class Util {
                     }
                     // Delete the duplicate folder if it is empty after moving files
                     FileUtil.deleteFile(duplicateFiles.toString());
-                } catch (IOException e) {
-                    e.printStackTrace();
                 }
             }
+        }catch (Exception e) {
+            throw new Exception(e);
         }
-
     }
     // Helper method to get the list of files in a folder
     private static List<Path> getFilesInFolder(Path folder) throws IOException {
@@ -325,7 +306,6 @@ public class Util {
             return null;
         }
     }
-
     public static void updateDbStatusAndRetry(QueueItem queueItem, int retry, int id, String workitemId, Exception e, String specificData, String state) throws Exception {
         if (queueItem.getDetail()!= null) {
             if (retry < Constant.MAX_RETRY) {

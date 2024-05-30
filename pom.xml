@@ -61,7 +61,6 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <!--<mainClass>bots.AppboxPerformer</mainClass>-->
                             <mainClass>${exec.mainClass}</mainClass>
                             <classpathScope>compile</classpathScope>
                         </configuration>
