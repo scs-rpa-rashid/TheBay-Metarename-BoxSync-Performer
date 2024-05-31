@@ -141,7 +141,13 @@ public class Util {
             // Check if the file exists and is executable
             if (exeFile.exists() && exeFile.canExecute() && !boxPath.exists()) {
                 // Open the file using the system default application
-                Desktop.getDesktop().open(exeFile);
+                if (Desktop.isDesktopSupported()) {
+                    Desktop.getDesktop().open(exeFile);
+                } else {
+                    // Fallback to Runtime execution
+                    System.out.println("Desktop API not supported. Using Runtime exec() as fallback.");
+                    Runtime.getRuntime().exec(filePath);
+                }
                 //Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
                 /*wait for launch to complete*/
                 // process.waitFor();
