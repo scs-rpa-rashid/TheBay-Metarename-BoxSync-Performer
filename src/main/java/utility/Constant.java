@@ -13,4 +13,5 @@ public class Constant {
     public static final String SQL_PASS_WORD = "chlp7#r!b=sWa9&7";
     public static final int POSTPONE_MINUTES = 30;
     public static final String COMMAND_PROMPT_SCRIPT = "cmd /c start \"\" \"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Box Drive.lnk\"";
+    public static final String PATH_EXCEPTION_SCREENSHOT = "\\\\10.124.234.5\\FileServer\\File Server\\HB-Meta Rename\\Exceptions_Screenshot\\";
 }

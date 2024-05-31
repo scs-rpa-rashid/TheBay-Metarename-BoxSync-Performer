@@ -21,6 +21,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
 import com.scs.queueutils.QueueItemUtils;
+import com.scs.sysutils.CaptureScreenshot;
 import model.InputDataModel;
 import model.Product;
 import org.apache.log4j.xml.DOMConfigurator;
@@ -145,6 +146,7 @@ public class Util {
                 Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
                 /*wait for launch to complete*/
                 process.waitFor();
+                CaptureScreenshot.captureScreenshot(Constant.PATH_EXCEPTION_SCREENSHOT+"testBox.png");
                 Log.info("Application launch triggered successfully.");
                 System.out.println("Application launch triggered successfully.");
             } else {
