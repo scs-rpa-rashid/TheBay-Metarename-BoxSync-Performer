@@ -2731,3 +2731,12 @@
 2024-05-30 17:11:54,615 INFO  [Log] Updated columns for id: 2129 
 2024-05-30 17:12:01,884 INFO  [Log] Transaction postponed 
 2024-05-30 17:12:02,472 INFO  [Log] Updated columns for id: 2129 
+2024-05-31 15:33:24,794 INFO  [Log] **************************************************************************************** 
+2024-05-31 15:33:24,795 INFO  [Log] **************************************************************************************** 
+2024-05-31 15:33:24,796 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-05-31 15:33:24,796 INFO  [Log] **************************************************************************************** 
+2024-05-31 15:33:24,796 INFO  [Log] **************************************************************************************** 
+2024-05-31 15:38:14,292 INFO  [Log] Application launch triggered successfully. 
+2024-05-31 15:38:16,282 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-05-31 15:38:35,936 INFO  [Log] Box Drive Application Launched Successfully 
+2024-05-31 15:38:40,431 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 

@@ -134,23 +134,17 @@ public class Util {
         try {
             // Specify the path to the executable or application file
             String filePath = Constant.BOX_EXECUTABLEFILE_PATH;
-            //String cmdPrmptBoxLaunch = Constant.COMMAND_PROMPT_SCRIPT;
+            String cmdPrmptBoxLaunch = Constant.COMMAND_PROMPT_SCRIPT;
             File boxPath = new File(Constant.BOX_PATH);
             // Create a file object for the executable or application
             File exeFile = new File(filePath);
             // Check if the file exists and is executable
             if (exeFile.exists() && exeFile.canExecute() && !boxPath.exists()) {
                 // Open the file using the system default application
-                if (Desktop.isDesktopSupported()) {
-                    Desktop.getDesktop().open(exeFile);
-                } else {
-                    // Fallback to Runtime execution
-                    System.out.println("Desktop API not supported. Using Runtime exec() as fallback.");
-                    Runtime.getRuntime().exec(filePath);
-                }
-                //Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
+                //Desktop.getDesktop().open(exeFile);
+                Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
                 /*wait for launch to complete*/
-                // process.waitFor();
+                process.waitFor();
                 Log.info("Application launch triggered successfully.");
                 System.out.println("Application launch triggered successfully.");
             } else {
