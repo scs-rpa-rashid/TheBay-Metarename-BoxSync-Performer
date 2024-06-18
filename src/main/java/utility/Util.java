@@ -6,8 +6,10 @@ import com.scs.model.QueueItem;
 import com.scs.dateutils.*;
 import com.scs.exceptionutil.*;
 import java.awt.Desktop;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.nio.file.*;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -165,6 +167,47 @@ public class Util {
             throw new ApplicationException("Error launching application: " + e.getMessage());
         }
     }
+    public static void launchBoxViaScheduledTask() throws ApplicationException {
+        try {
+            String taskName = "Launch Box";
+            String command = "schtasks /run /tn \"" + taskName + "\"";
+
+            Log.info("Executing command: " + command);
+            System.out.println("Executing command: " + command);
+
+            Process process = Runtime.getRuntime().exec(command);
+
+            BufferedReader stdInput = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            BufferedReader stdError = new BufferedReader(new InputStreamReader(process.getErrorStream()));
+
+            String s;
+            while ((s = stdInput.readLine()) != null) {
+                Log.info("Stdout: " + s);
+                System.out.println("Stdout: " + s);
+            }
+
+            while ((s = stdError.readLine()) != null) {
+                Log.error("Stderr: " + s);
+                System.out.println("Stderr: " + s);
+            }
+
+            int exitCode = process.waitFor();
+            Log.info("Process completed with exit code: " + exitCode);
+            System.out.println("Process completed with exit code: " + exitCode);
+
+            if (exitCode != 0) {
+                Log.error("Error launching application. Exit code: " + exitCode);
+                throw new ApplicationException("Error launching application. Exit code: " + exitCode);
+            }
+            launchBox();
+        } catch (Exception e) {
+            Log.error("Error launching application: " + e.getMessage());
+            throw new ApplicationException("Error launching application: " + e.getMessage());
+        }
+    }
+
+
+
     public static List<Path> fetchAllFilesInProcessedFolder() throws BusinessException, ApplicationException {
         List<Path> fileList;
         String formattedCurrentDate = DateUtil.currentDateTime("MMMM_d_yyyy");

@@ -27,7 +27,8 @@ public class BoxSyncPerformer {
             //Initialize the logs
             Util.StartLog();
             //Launch the Box Drive Software
-            Util.launchBox();
+            Util.launchBoxViaScheduledTask();
+            /*Util.launchBox();*/
             /* Validate if the current date folder is present in Processed Folder
              * Throw Business Exception if the Current date folder is not present
              * Fetch all the files from Current date folder for further processing*/
