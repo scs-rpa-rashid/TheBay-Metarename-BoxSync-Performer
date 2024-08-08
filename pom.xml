@@ -38,7 +38,7 @@
             <artifactId>reusable-utils</artifactId>
             <version>1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/SCS-RPA-CommonUtils.jar</systemPath>
+            <systemPath>${project.basedir}/lib/SCS-RPA-CommonUtils_1.0.jar</systemPath>
         </dependency>
     </dependencies>
     <properties>

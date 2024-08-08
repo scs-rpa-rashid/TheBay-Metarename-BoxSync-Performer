@@ -5,7 +5,6 @@ import com.scs.fileutils.FileUtil;
 import com.scs.model.QueueItem;
 import com.scs.dateutils.*;
 import com.scs.exceptionutil.*;
-import java.awt.Desktop;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -14,7 +13,6 @@ import java.nio.file.*;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.*;
 import java.util.regex.Matcher;
@@ -76,31 +74,7 @@ public class Util {
             queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","postpone"),List.of("New",Util.postponeTime()),id);
         }
     }
-    public static boolean checkIfTransactionPostponed(String strCreateTimestamp, int intId) throws ApplicationException {
-        System.out.println("Processing Transaction - "+InputDataModel.strUPC);
-        /*Eliminate milliseconds from create time stamp*/
-        int lastDotIndex = strCreateTimestamp.lastIndexOf(".");
-        strCreateTimestamp = strCreateTimestamp.substring(0,lastDotIndex);
-        boolean skipTheLoop = false;
-        DateTimeFormatter finalFormatter = DateUtil.dateFormatter("yyyy-MM-dd HH:mm:ss");
-        LocalDateTime currentTimeVal = LocalDateTime.parse(DateUtil.currentDateTime("yyyy-MM-dd HH:mm:ss"),finalFormatter);
-        LocalDateTime formattedCreatedTime = LocalDateTime.parse(strCreateTimestamp,finalFormatter);
-        String strCreatedTime = formattedCreatedTime.format(finalFormatter);
-        LocalDateTime finalCreatedTime = LocalDateTime.parse(strCreatedTime,finalFormatter);
-        /*Transaction will be failed if the Postpone is exceeding 6 days
-         * Hence the below Transaction creation time + 6 days
-         * to check if the current time exceeded the Postpone Limit*/
-        LocalDateTime postponeLimit = finalCreatedTime.plusDays(6);
-        if (currentTimeVal.isAfter(postponeLimit)) {
-            String reason = "Business Exception - Failing this Transaction as it has exceeded the Threshold ," +
-                    "postpone Limit - "+postponeLimit+" current time - "+currentTimeVal;
-            System.out.println(reason);
-            Log.info(reason);
-            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of("Failed",reason),intId);
-            skipTheLoop = true;
-        }
-        return skipTheLoop;
-    }
+
     public static void copyImagesAndUpdateStatus(List<Path> lstAllFilesInProcessedFolder,int intId,
                                                  String strWorkItemId,String strSpecificData) throws ApplicationException {
         String strUpc = InputDataModel.strUPC;
@@ -206,8 +180,6 @@ public class Util {
         }
     }
 
-
-
     public static List<Path> fetchAllFilesInProcessedFolder() throws BusinessException, ApplicationException {
         List<Path> fileList;
         String formattedCurrentDate = DateUtil.currentDateTime("MMMM_d_yyyy");
@@ -276,27 +248,27 @@ public class Util {
     }
     public static void FolderMerger() throws Exception {
         try {
-        String formattedMonthDate = DateUtil.currentDateTime("M_MMMM_yyyy");
-        String formattedCurrDate = DateUtil.currentDateTime("MMMM_d_yyyy");
-        String boxPath = HOME + Constant.BOXDRIVE_PATH + formattedMonthDate + "_HB_VPI\\" + formattedCurrDate;
-        // Get the list of files in the duplicate folder
-        List<Path> filesInDateFolder;
-        List<Path> divisionFolders = new ArrayList<>();
-        filesInDateFolder = getFilesInFolder(Path.of(boxPath));
-        for (Path imageFiles : filesInDateFolder) {
-            divisionFolders.add(imageFiles.getParent());
-        }
-        // Convert the list to a set to remove duplicates
-        Set<Path> uniquePaths = new HashSet<>(divisionFolders);
-        // Convert the set back to a list
-        List<Path> uniqueDivisionFolders = new ArrayList<>(uniquePaths);
-        for (Path division : uniqueDivisionFolders) {
-            if (division.getFileName().toString().toLowerCase().startsWith("division")
-                    && division.toString().contains("(")){
-                // Specify the paths of the folders to be merged
-                Path duplicateFolder = Paths.get(division.toUri());
-                int indexOfDot = division.toString().indexOf("(");
-                Path originalFolder = Paths.get(division.toString().substring(0,indexOfDot));
+            String formattedMonthDate = DateUtil.currentDateTime("M_MMMM_yyyy");
+            String formattedCurrDate = DateUtil.currentDateTime("MMMM_d_yyyy");
+            String boxPath = HOME + Constant.BOXDRIVE_PATH + formattedMonthDate + "_HB_VPI\\" + formattedCurrDate;
+            // Get the list of files in the duplicate folder
+            List<Path> filesInDateFolder;
+            List<Path> divisionFolders = new ArrayList<>();
+            filesInDateFolder = getFilesInFolder(Path.of(boxPath));
+            for (Path imageFiles : filesInDateFolder) {
+                divisionFolders.add(imageFiles.getParent());
+            }
+            // Convert the list to a set to remove duplicates
+            Set<Path> uniquePaths = new HashSet<>(divisionFolders);
+            // Convert the set back to a list
+            List<Path> uniqueDivisionFolders = new ArrayList<>(uniquePaths);
+            for (Path division : uniqueDivisionFolders) {
+                if (division.getFileName().toString().toLowerCase().startsWith("division")
+                        && division.toString().contains("(")){
+                    // Specify the paths of the folders to be merged
+                    Path duplicateFolder = Paths.get(division.toUri());
+                    int indexOfDot = division.toString().indexOf("(");
+                    Path originalFolder = Paths.get(division.toString().substring(0,indexOfDot));
 
                     // Check if the original folder exists
                     if (!Files.exists(originalFolder)) {

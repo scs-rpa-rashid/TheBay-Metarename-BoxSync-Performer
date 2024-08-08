@@ -2854,3 +2854,47 @@
 2024-06-18 18:13:51,608 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
 2024-06-18 18:16:45,030 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
 2024-06-18 18:16:45,032 INFO  [Log] Process completed with exit code: 0 
+2024-07-25 18:40:21,257 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:40:21,258 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:40:21,258 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-07-25 18:40:21,258 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:40:21,258 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:40:35,598 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-07-25 18:40:51,836 ERROR [Log] Stderr: ERROR: The scheduled task "Launch Box" could not run because it is disabled. 
+2024-07-25 18:40:51,838 INFO  [Log] Process completed with exit code: 1 
+2024-07-25 18:40:51,839 ERROR [Log] Error launching application. Exit code: 1 
+2024-07-25 18:40:51,840 ERROR [Log] Error launching application: Error launching application. Exit code: 1 
+2024-07-25 18:43:02,915 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:43:02,915 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:43:02,916 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-07-25 18:43:02,916 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:43:02,916 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:43:18,410 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-07-25 18:43:40,924 ERROR [Log] Stderr: ERROR: The scheduled task "Launch Box" could not run because it is disabled. 
+2024-07-25 18:44:07,349 INFO  [Log] Process completed with exit code: 1 
+2024-07-25 18:44:07,351 ERROR [Log] Error launching application. Exit code: 1 
+2024-07-25 18:44:07,351 ERROR [Log] Error launching application: Error launching application. Exit code: 1 
+2024-07-25 18:44:14,774 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:44:14,774 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:44:14,775 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-07-25 18:44:14,775 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:44:14,775 INFO  [Log] **************************************************************************************** 
+2024-07-25 18:44:18,871 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-07-25 18:44:23,327 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-07-25 18:44:32,157 INFO  [Log] Process completed with exit code: 0 
+2024-07-25 18:44:34,278 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-07-25 18:44:34,278 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-07-25 18:44:39,283 INFO  [Log] Box Drive Application Launched Successfully 
+2024-07-25 18:44:47,266 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 
+2024-07-26 11:10:16,913 INFO  [Log] **************************************************************************************** 
+2024-07-26 11:10:16,914 INFO  [Log] **************************************************************************************** 
+2024-07-26 11:10:16,915 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-07-26 11:10:16,915 INFO  [Log] **************************************************************************************** 
+2024-07-26 11:10:16,915 INFO  [Log] **************************************************************************************** 
+2024-07-26 11:10:19,787 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-07-26 11:10:23,247 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-07-26 11:10:26,610 INFO  [Log] Process completed with exit code: 0 
+2024-07-26 12:00:03,693 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-07-26 12:00:03,697 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-07-26 12:00:08,721 INFO  [Log] Box Drive Application Launched Successfully 
+2024-07-26 12:00:14,858 ERROR [Log] Current date folder doesn't exists in Processed folder - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\ 

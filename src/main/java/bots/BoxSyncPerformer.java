@@ -49,29 +49,23 @@ public class BoxSyncPerformer {
                      /*Deserialize the Specific data values from Database
                      Set each values to Pojo Setters */
                     Util.setSpecificDataToPojo(strSpecificData);
-                    /*below logic is to check if the Transaction has exceeded the postpone limit*/
-                    skipTransaction = Util.checkIfTransactionPostponed(strCreateTimestamp, intId);
-                    if (skipTransaction) {
-                        continue;
-                    }
                     /*Copy Images to Box if present in processed folder , mark status as successful,
                      * Postpone the transaction if no Images are available in processed folder
                      * Fail the transaction if postpone is exceeded for 6 days*/
                     Util.copyImagesAndUpdateStatus(lstAllFilesInProcessedFolder,intId
                             , strWorkItemId, strSpecificData);
                 }else{
-                    queueItemPresent =false;
+                    queueItemPresent = false;
                     System.out.println("No More transactions in the Queue to Process");
                     Log.info("No More transactions in the Queue to Process");
                 }
             }
-            System.out.println("No More transactions in the Queue to Process");
-            Log.info("No More transactions in the Queue to Process");
             /*Merge the duplicate images in Box folder*/
             Util.FolderMerger();
             /*Wait for all the files to be Synced*/
             System.out.println("Waiting for the files to complete the Sync");
             Thread.sleep(300000);
+            System.exit(0);
         }
         catch (BusinessException be){
             throw new BusinessException(be.getMessage());
