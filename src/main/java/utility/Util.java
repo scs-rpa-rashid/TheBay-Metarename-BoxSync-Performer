@@ -55,11 +55,11 @@ public class Util {
             e.printStackTrace();
         }
     }
-    public static void updateTransactionStatus(int counterCopied, String status, int id, String workitemId, String specificData,String upc,List<String> lstNewFileNames) throws ApplicationException {
+    public static void updateTransactionStatus(int counterCopied, String status, String strReason, int id, String workitemId, String specificData, String upc, List<String> lstNewFileNames) throws ApplicationException {
         if (counterCopied>0){
             System.out.println("Transaction Successful");
             Log.info("Transaction Successful");
-            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status"),List.of(status),id);
+            queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of(status,strReason),id);
             //DatabaseUtil.updateDatabase("status",status,id);
             /*Insert the data into the Workhorse Queue*/
             queueItemUtils.addQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("work_item_id","queue_name","state","status","detail","retry"),
@@ -80,6 +80,7 @@ public class Util {
         String strUpc = InputDataModel.strUPC;
         int counterCopied = 0;
         String strStatus = null;
+        String strReason = null;
         List<String> lstNewFileNames = new ArrayList<>();
         for (Path path : lstAllFilesInProcessedFolder) {
             if (path.toString().contains(strUpc)) {
@@ -94,13 +95,14 @@ public class Util {
                     strStatus = "Successful";
                 } catch (Exception e) {
                     strStatus = "Failed";
+                    strReason = e.getMessage();
                     break;
                 }
             }
         }
         /*If any Image is copied , Update the status accordingly
          * Store the Count of number of images processed in "Comment column"*/
-        Util.updateTransactionStatus(counterCopied, strStatus, intId, strWorkItemId, strSpecificData, strUpc,lstNewFileNames);
+        Util.updateTransactionStatus(counterCopied, strStatus, strReason, intId, strWorkItemId, strSpecificData, strUpc,lstNewFileNames);
     }
     public static final String HOME = System.getProperty("user.home");
     public static void StartLog() {
