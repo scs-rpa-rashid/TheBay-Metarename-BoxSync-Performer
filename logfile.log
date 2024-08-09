@@ -2963,3 +2963,95 @@
 2024-08-09 12:19:58,194 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\191422371578_altB.jpg 
 2024-08-09 12:20:05,819 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\191422371578_altC.jpg 
 2024-08-09 12:20:05,819 INFO  [Log] Transaction Successful 
+2024-08-09 15:24:32,559 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:24:32,560 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:24:32,561 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-08-09 15:24:32,561 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:24:32,562 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:24:32,562 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-08-09 15:24:33,036 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-08-09 15:24:33,040 INFO  [Log] Process completed with exit code: 0 
+2024-08-09 15:24:33,049 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-08-09 15:24:33,049 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-08-09 15:24:38,058 INFO  [Log] Box Drive Application Launched Successfully 
+2024-08-09 15:24:42,575 INFO  [Log] Current date folder exists in Processed folder 
+2024-08-09 15:25:16,215 INFO  [Log] Updated columns for id: 6972 
+2024-08-09 15:25:25,713 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\191899858640_altA.jpg 
+2024-08-09 15:25:31,602 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\191899858640_altB.jpg 
+2024-08-09 15:25:31,602 INFO  [Log] Transaction Successful 
+2024-08-09 15:25:31,603 INFO  [Log] Transaction Retried 
+2024-08-09 15:25:47,913 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:25:47,914 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:25:47,914 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-08-09 15:25:47,915 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:25:47,915 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:25:47,915 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-08-09 15:25:48,070 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-08-09 15:25:48,075 INFO  [Log] Process completed with exit code: 0 
+2024-08-09 15:25:48,078 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-08-09 15:25:48,079 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-08-09 15:25:53,092 INFO  [Log] Box Drive Application Launched Successfully 
+2024-08-09 15:25:53,795 INFO  [Log] Current date folder exists in Processed folder 
+2024-08-09 15:26:11,180 INFO  [Log] Updated columns for id: 6973 
+2024-08-09 15:26:21,483 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\191422371578_altA.jpg 
+2024-08-09 15:26:42,020 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\191422371578_altB.jpg 
+2024-08-09 15:26:54,047 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\191422371578_altC.jpg 
+2024-08-09 15:27:00,680 INFO  [Log] Transaction Successful 
+2024-08-09 15:27:17,324 INFO  [Log] Transaction Retried 
+2024-08-09 15:27:50,188 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:27:50,188 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:27:50,188 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-08-09 15:27:50,188 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:27:50,189 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:27:50,189 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-08-09 15:27:50,374 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-08-09 15:27:50,378 INFO  [Log] Process completed with exit code: 0 
+2024-08-09 15:27:50,381 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-08-09 15:27:50,382 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-08-09 15:27:55,390 INFO  [Log] Box Drive Application Launched Successfully 
+2024-08-09 15:27:56,096 INFO  [Log] Current date folder exists in Processed folder 
+2024-08-09 15:28:57,175 INFO  [Log] Updated columns for id: 6975 
+2024-08-09 15:29:04,726 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\627911130598_altA.jpg 
+2024-08-09 15:29:11,638 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 25 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 25\627911130598_altB.jpg 
+2024-08-09 15:29:20,116 INFO  [Log] Transaction Successful 
+2024-08-09 15:29:48,279 INFO  [Log] Transaction Retried 
+2024-08-09 15:29:57,028 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:29:57,029 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:29:57,029 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-08-09 15:29:57,029 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:29:57,029 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:29:57,030 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-08-09 15:29:57,182 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-08-09 15:29:57,187 INFO  [Log] Process completed with exit code: 0 
+2024-08-09 15:29:57,189 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-08-09 15:29:57,190 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-08-09 15:30:02,203 INFO  [Log] Box Drive Application Launched Successfully 
+2024-08-09 15:30:02,902 INFO  [Log] Current date folder exists in Processed folder 
+2024-08-09 15:30:22,173 INFO  [Log] Updated columns for id: 6976 
+2024-08-09 15:30:30,104 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 19 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 19\771482387216_altA.jpg 
+2024-08-09 15:30:36,278 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 19 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 19\771482387216_altB.jpg 
+2024-08-09 15:30:42,943 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 19 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 19\771482387216_altC.jpg 
+2024-08-09 15:30:59,303 INFO  [Log] Transaction Successful 
+2024-08-09 15:30:59,304 INFO  [Log] Transaction Retried 
+2024-08-09 15:31:23,463 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:31:23,464 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:31:23,464 INFO  [Log] $$$$$$$$$$$$$$$$$$$$$                 MetaRename Box Sync       $$$$$$$$$$$$$$$$$$$$$$$$$ 
+2024-08-09 15:31:23,464 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:31:23,464 INFO  [Log] **************************************************************************************** 
+2024-08-09 15:31:23,465 INFO  [Log] Executing command: schtasks /run /tn "Launch Box" 
+2024-08-09 15:31:23,607 INFO  [Log] Stdout: SUCCESS: Attempted to run the scheduled task "Launch Box". 
+2024-08-09 15:31:23,611 INFO  [Log] Process completed with exit code: 0 
+2024-08-09 15:31:23,613 INFO  [Log] File does not exist , cannot be executed or Box Drive is Already Opened 
+2024-08-09 15:31:23,613 INFO  [Log] Waiting for the Box Drive Application launch to complete 
+2024-08-09 15:31:28,625 INFO  [Log] Box Drive Application Launched Successfully 
+2024-08-09 15:31:29,353 INFO  [Log] Current date folder exists in Processed folder 
+2024-08-09 15:32:01,907 INFO  [Log] Updated columns for id: 6977 
+2024-08-09 15:32:11,173 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\55092966369_altA.jpg 
+2024-08-09 15:32:18,394 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\55092966369_altB.jpg 
+2024-08-09 15:32:24,799 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\55092966369_altC.jpg 
+2024-08-09 15:32:31,717 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\55092966369_altD.jpg 
+2024-08-09 15:32:37,755 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\55092966369_altE.jpg 
+2024-08-09 15:32:51,537 INFO  [Log] Transaction Successful 
+2024-08-09 15:32:58,251 INFO  [Log] Updated columns for id: 6977 
+2024-08-09 15:33:06,437 INFO  [Log] Updated columns for id: 6978 
+2024-08-09 15:33:13,133 INFO  [Log] File copied to: C:\Users\H896753\Box\THE BAY VENDOR PROVIDED IMAGES\RPA Test Folder\8_August_2024_HB_VPI\August_9_2024\OO\DIVISION 73 from source - \\10.124.234.5\FileServer\File Server\HB-Meta Rename\Processed\August_9_2024\OO\DIVISION 73\664770091509_altA.jpg 

@@ -80,7 +80,7 @@ public class Util {
         String strUpc = InputDataModel.strUPC;
         int counterCopied = 0;
         String strStatus = null;
-        String strReason = null;
+        String strReason = "";
         List<String> lstNewFileNames = new ArrayList<>();
         for (Path path : lstAllFilesInProcessedFolder) {
             if (path.toString().contains(strUpc)) {
