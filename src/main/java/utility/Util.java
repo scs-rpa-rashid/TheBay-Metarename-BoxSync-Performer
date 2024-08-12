@@ -1,14 +1,13 @@
 package utility;
 
 import bots.BoxSyncPerformer;
+import com.scs.emailutil.SendEmail;
 import com.scs.fileutils.FileUtil;
 import com.scs.model.QueueItem;
 import com.scs.dateutils.*;
 import com.scs.exceptionutil.*;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.file.*;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -55,7 +54,7 @@ public class Util {
             e.printStackTrace();
         }
     }
-    public static void updateTransactionStatus(int counterCopied, String status, String strReason, int id, String workitemId, String specificData, String upc, List<String> lstNewFileNames) throws ApplicationException {
+    public static void updateTransactionStatus(int counterCopied, String status, String strReason, int id, String workItemId, String specificData, String upc, List<String> lstNewFileNames) throws ApplicationException {
         if (counterCopied>0){
             System.out.println("Transaction Successful");
             Log.info("Transaction Successful");
@@ -63,9 +62,9 @@ public class Util {
             //DatabaseUtil.updateDatabase("status",status,id);
             /*Insert the data into the Workhorse Queue*/
             queueItemUtils.addQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("work_item_id","queue_name","state","status","detail","retry"),
-                    List.of(workitemId,"TheBay_Workhorse_Performer","TheBay_Workhorse_Performer","New",specificData,0));
+                    List.of(workItemId,"TheBay_Workhorse_Performer","TheBay_Workhorse_Performer","New",specificData,0));
             String updateQuery = "UPDATE RPADev.TheBay_DigOps_Metarename_Box.workitem Set comment = '"+"Number of Images Copied - "+counterCopied+":New Vendor File Name - "+String.join(", ", lstNewFileNames)+"' WHERE" +
-                    " state ='TheBay_Workhorse_Performer' And detail like '%"+upc+"%' And work_item_id = '"+workitemId+"'";
+                    " state ='TheBay_Workhorse_Performer' And detail like '%"+upc+"%' And work_item_id = '"+workItemId+"'";
             DatabaseUtil.updateDatabaseCustom(updateQuery);
         }else {
             /*Images not processed , Postpone the Transaction by 30 minutes*/
@@ -113,15 +112,17 @@ public class Util {
         try {
             // Specify the path to the executable or application file
             String filePath = Constant.BOX_EXECUTABLEFILE_PATH;
-            String cmdPrmptBoxLaunch = Constant.COMMAND_PROMPT_SCRIPT;
+            String cmdPromptBoxLaunch = Constant.COMMAND_PROMPT_SCRIPT;
             File boxPath = new File(Constant.BOX_PATH);
+            SendEmail sendEmail = new SendEmail();
+            int launchCounter=0;
             // Create a file object for the executable or application
             File exeFile = new File(filePath);
             // Check if the file exists and is executable
             if (exeFile.exists() && exeFile.canExecute() && !boxPath.exists()) {
                 // Open the file using the system default application
                 //Desktop.getDesktop().open(exeFile);
-                Process process = Runtime.getRuntime().exec(cmdPrmptBoxLaunch);
+                Process process = Runtime.getRuntime().exec(cmdPromptBoxLaunch);
                 /*wait for launch to complete*/
                 process.waitFor();
                 CaptureScreenshot.captureScreenshot(Constant.PATH_EXCEPTION_SCREENSHOT+"testBox.png");
@@ -135,47 +136,19 @@ public class Util {
                 Log.info("Waiting for the Box Drive Application launch to complete");
                 System.out.println("Waiting for the Box Drive Application launch to complete");
                 Thread.sleep(5000);
-            } while (!boxPath.exists());
+                launchCounter++;
+            } while (!boxPath.exists() && launchCounter<=60);
+            if (!boxPath.exists()){
+                sendEmail.setFromMailId(Constant.FROM_MAIL_ID);
+                sendEmail.setToMailId(Constant.TO_MAIL_ID);
+                sendEmail.setEmailSubject(Constant.EMAIL_SUBJECT_PHASE1);
+                sendEmail.setEmailBody(Constant.EMAIL_BODY);
+                sendEmail.setCcMailId(Constant.CC_MAIL_ID);
+                sendEmail.sendEmail();
+                throw new ApplicationException("Box Drive wasn't launched after trying for 5 minutes");
+            }
             Log.info("Box Drive Application Launched Successfully");
             System.out.println("Box Drive Application Launched Successfully");
-        } catch (Exception e) {
-            Log.error("Error launching application: " + e.getMessage());
-            throw new ApplicationException("Error launching application: " + e.getMessage());
-        }
-    }
-    public static void launchBoxViaScheduledTask() throws ApplicationException {
-        try {
-            String taskName = "Launch Box";
-            String command = "schtasks /run /tn \"" + taskName + "\"";
-
-            Log.info("Executing command: " + command);
-            System.out.println("Executing command: " + command);
-
-            Process process = Runtime.getRuntime().exec(command);
-
-            BufferedReader stdInput = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader stdError = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
-            String s;
-            while ((s = stdInput.readLine()) != null) {
-                Log.info("Stdout: " + s);
-                System.out.println("Stdout: " + s);
-            }
-
-            while ((s = stdError.readLine()) != null) {
-                Log.error("Stderr: " + s);
-                System.out.println("Stderr: " + s);
-            }
-
-            int exitCode = process.waitFor();
-            Log.info("Process completed with exit code: " + exitCode);
-            System.out.println("Process completed with exit code: " + exitCode);
-
-            if (exitCode != 0) {
-                Log.error("Error launching application. Exit code: " + exitCode);
-                throw new ApplicationException("Error launching application. Exit code: " + exitCode);
-            }
-            launchBox();
         } catch (Exception e) {
             Log.error("Error launching application: " + e.getMessage());
             throw new ApplicationException("Error launching application: " + e.getMessage());
@@ -214,8 +187,10 @@ public class Util {
         if (!destinationFile.getParentFile().exists()) {
             System.out.println(destinationFile.getParentFile() + " does not exists , creating the file");
             Files.createDirectories(destinationFile.getParentFile().toPath());
+            Thread.sleep(3000);
         }
         FileUtil.copyFile(path.toString(),destinationFile.getParentFile().toString());
+        Thread.sleep(3000);
     }
     public static Boolean checkDuplicates(Path path) {
         boolean boolVal = false;
@@ -325,26 +300,24 @@ public class Util {
             return null;
         }
     }
-    public static void updateDbStatusAndRetry(QueueItem queueItem, int retry, int id, String workitemId, Exception e, String specificData, String state) throws Exception {
-        if (queueItem.getDetail()!= null) {
+    public static void updateDbStatusAndRetry(QueueItem queueItem, int retry, int id, String workItemId, Exception e, String specificData, String state) throws Exception {
+        if (!(queueItem == null) && queueItem.getDetail()!= null) {
             if (retry < Constant.MAX_RETRY) {
                 System.out.println("Transaction Retried");
                 Log.info("Transaction Retried");
                 queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of("Retried",e.getMessage().replace("'", "")),id);
                 retry = retry + 1;
                 queueItemUtils.addQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("work_item_id","queue_name","state","status","detail","retry"),
-                        List.of(workitemId,state,state,"New",specificData,retry));
-                new BoxSyncPerformer().run();
-                Log.error(e.getMessage());
+                        List.of(workItemId,state,state,"New",specificData,retry));
                 /*throw new ApplicationException(e.getMessage());*/
             } else {
                 System.out.println("Transaction Failed");
                 Log.info("Transaction Failed");
                 queueItemUtils.updateQueueItem(Constant.DB_WORK_ITEM_TABLE_NAME,List.of("status","reason"),List.of("Failed",e.getMessage().replace("'", "")),id);
-                new BoxSyncPerformer().run();
-                Log.error(e.getMessage());
                 /*throw new ApplicationException(e.getMessage());*/
             }
+            new BoxSyncPerformer().run();
+            Log.error(e.getMessage());
         }else {
             Log.info("Not Retrying as the Queue Item is not yet Fetched");
             throw new ApplicationException(e.getMessage());

@@ -19,7 +19,6 @@ public class BoxSyncPerformer {
     Boolean queueItemPresent;
     QueueItem queueItem;
     QueueItemUtils queueItemUtils;
-    boolean skipTransaction;
     public void run() throws Exception {
         try{
             queueItemPresent = true;
@@ -27,7 +26,7 @@ public class BoxSyncPerformer {
             //Initialize the logs
             Util.StartLog();
             //Launch the Box Drive Software
-            Util.launchBoxViaScheduledTask();
+            Util.launchBox();
             /*Util.launchBox();*/
             /* Validate if the current date folder is present in Processed Folder
              * Throw Business Exception if the Current date folder is not present
@@ -64,6 +63,7 @@ public class BoxSyncPerformer {
             Util.FolderMerger();
             /*Wait for all the files to be Synced*/
             System.out.println("Waiting for the files to complete the Sync");
+            /*5 minutes delay*/
             Thread.sleep(300000);
             System.exit(0);
         }
